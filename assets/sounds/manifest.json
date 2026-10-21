@@ -1,0 +1,293 @@
+{
+  "source": "Windows 95B CD Funstuff/Hover/Sounds",
+  "sounds": [
+    {
+      "name": "ATTKPING",
+      "mixedSha256": "479c4cc4e672fb99239d302778374a0b14fc9c5f963d12bce5af90c31203b3a6",
+      "unmixedSha256": "bf3b7dac9e548d9cd159cddbff0e3d56ec8990d7c4bca7d3ed7e2baab63e286d",
+      "mixedFile": "mixed/ATTKPING.WAV",
+      "unmixedFile": "ATTKPING.WAV",
+      "rate": 11025,
+      "frames": 7488
+    },
+    {
+      "name": "CLOAK_EN",
+      "mixedSha256": "9f497e286454541f69d5f75f32c3ac1aac3ed58510ee26c3a339a2eaf9e5c04e",
+      "unmixedSha256": "9f497e286454541f69d5f75f32c3ac1aac3ed58510ee26c3a339a2eaf9e5c04e",
+      "mixedFile": "CLOAK_EN.WAV",
+      "unmixedFile": "CLOAK_EN.WAV",
+      "rate": 11025,
+      "frames": 9285
+    },
+    {
+      "name": "CLOAK_ST",
+      "mixedSha256": "be3551e873101105b53fa86a0f81a221398f588d6de9b48c56a193caba62aba3",
+      "unmixedSha256": "080f7994f68924291aa42dbaaa597dd506889af01a7be3a11615b207ba3cdd83",
+      "mixedFile": "mixed/CLOAK_ST.WAV",
+      "unmixedFile": "CLOAK_ST.WAV",
+      "rate": 11025,
+      "frames": 10467
+    },
+    {
+      "name": "ENG_HIGH",
+      "mixedSha256": "f3fffde507c70f698f58ced58464d945cf5adbe413ae9fcba2eb1677e3c2b9f0",
+      "unmixedSha256": "f3fffde507c70f698f58ced58464d945cf5adbe413ae9fcba2eb1677e3c2b9f0",
+      "mixedFile": "ENG_HIGH.WAV",
+      "unmixedFile": "ENG_HIGH.WAV",
+      "rate": 11025,
+      "frames": 15156
+    },
+    {
+      "name": "ENG_IDLE",
+      "mixedSha256": "3decaab50829983c5a3e6ab60185ee1aaca653e1022b5093cba2dad805d5d434",
+      "unmixedSha256": "3decaab50829983c5a3e6ab60185ee1aaca653e1022b5093cba2dad805d5d434",
+      "mixedFile": "ENG_IDLE.WAV",
+      "unmixedFile": "ENG_IDLE.WAV",
+      "rate": 11025,
+      "frames": 22069
+    },
+    {
+      "name": "ENG_LOW",
+      "mixedSha256": "e9690de0dd6cd434e296614b3ff1c5fc61216f75b35ddca6d4d1160435532940",
+      "unmixedSha256": "e9690de0dd6cd434e296614b3ff1c5fc61216f75b35ddca6d4d1160435532940",
+      "mixedFile": "ENG_LOW.WAV",
+      "unmixedFile": "ENG_LOW.WAV",
+      "rate": 11025,
+      "frames": 14949
+    },
+    {
+      "name": "ENG_NORM",
+      "mixedSha256": "1924c6e7903910c4f7f26cccd63fa7c18b172cc4d421aba71df87c403c970018",
+      "unmixedSha256": "1924c6e7903910c4f7f26cccd63fa7c18b172cc4d421aba71df87c403c970018",
+      "mixedFile": "ENG_NORM.WAV",
+      "unmixedFile": "ENG_NORM.WAV",
+      "rate": 11025,
+      "frames": 20233
+    },
+    {
+      "name": "FLAGR_DR",
+      "mixedSha256": "a812a0411425adf3612be867ddd0042939734b26e70c2a7b7cd3034620d595ed",
+      "unmixedSha256": "be408933f77b59754b088d15295dbac2cf01ce5f6c83b943700e16929666f13f",
+      "mixedFile": "mixed/FLAGR_DR.WAV",
+      "unmixedFile": "FLAGR_DR.WAV",
+      "rate": 11025,
+      "frames": 13697
+    },
+    {
+      "name": "FLAGR_ST",
+      "mixedSha256": "b9ff56c9766aefb6471c41197bdce205afa331e9ab8b8fd2c129627519f16af3",
+      "unmixedSha256": "8ab1844384d1dcbd86de038b827b71a8258193c172a61eb27da932a4589a024d",
+      "mixedFile": "mixed/FLAGR_ST.WAV",
+      "unmixedFile": "FLAGR_ST.WAV",
+      "rate": 11025,
+      "frames": 14014
+    },
+    {
+      "name": "GAMEOVR",
+      "mixedSha256": "6b0d81fb9e85e48e6cad1117751b65790c2c2ed2e2c5ec4ccc1273b40dc6b75a",
+      "unmixedSha256": "6b0d81fb9e85e48e6cad1117751b65790c2c2ed2e2c5ec4ccc1273b40dc6b75a",
+      "mixedFile": "GAMEOVR.WAV",
+      "unmixedFile": "GAMEOVR.WAV",
+      "rate": 11025,
+      "frames": 18464
+    },
+    {
+      "name": "HIT_MAPE",
+      "mixedSha256": "e657a055cc5fb7e8d9a5c534596900e383f1387b87d384d364d39311c2dca27f",
+      "unmixedSha256": "e657a055cc5fb7e8d9a5c534596900e383f1387b87d384d364d39311c2dca27f",
+      "mixedFile": "HIT_MAPE.WAV",
+      "unmixedFile": "HIT_MAPE.WAV",
+      "rate": 11025,
+      "frames": 8640
+    },
+    {
+      "name": "HIT_POD",
+      "mixedSha256": "482ac03fab26b682686cefe4c94710af46a3d64d6f9e6b826af2c61a42ad0550",
+      "unmixedSha256": "482ac03fab26b682686cefe4c94710af46a3d64d6f9e6b826af2c61a42ad0550",
+      "mixedFile": "HIT_POD.WAV",
+      "unmixedFile": "HIT_POD.WAV",
+      "rate": 11025,
+      "frames": 5588
+    },
+    {
+      "name": "HIT_ROBT",
+      "mixedSha256": "48301fdf4923e1fe28e5239bbe8dbee6877922b234933eae230667088bb9d125",
+      "unmixedSha256": "6adb30a017e92250039b6e82479f5a614b51d8c8570cb7072f2f56cbb2dfc9a9",
+      "mixedFile": "mixed/HIT_ROBT.WAV",
+      "unmixedFile": "HIT_ROBT.WAV",
+      "rate": 11025,
+      "frames": 4590
+    },
+    {
+      "name": "HIT_SHLD",
+      "mixedSha256": "697c5bff7280420ef37edc39b189d87e1f61587d17cf863cb46cf17eaffa48eb",
+      "unmixedSha256": "2a08b8047ad42a57e318667f24b4c0dcb5e4e09ee7bf525bc3a58d01fea7039c",
+      "mixedFile": "mixed/HIT_SHLD.WAV",
+      "unmixedFile": "HIT_SHLD.WAV",
+      "rate": 11025,
+      "frames": 2632
+    },
+    {
+      "name": "HIT_WALL",
+      "mixedSha256": "209c427777a45eaa72c0e1a43866e076f254bc1a168c62e54e027c74e836ce0d",
+      "unmixedSha256": "9ae59033f16437e1a4b09ef702f9e24d8ca4ba7417e55ff1ec8ce27888101ee3",
+      "mixedFile": "mixed/HIT_WALL.WAV",
+      "unmixedFile": "HIT_WALL.WAV",
+      "rate": 11025,
+      "frames": 4790
+    },
+    {
+      "name": "HOLD_EN",
+      "mixedSha256": "1f586d1bba92fb0e32aaec1c2e70d500a047632f3b0ca8b14b089715a1ff1360",
+      "unmixedSha256": "1f586d1bba92fb0e32aaec1c2e70d500a047632f3b0ca8b14b089715a1ff1360",
+      "mixedFile": "HOLD_EN.WAV",
+      "unmixedFile": "HOLD_EN.WAV",
+      "rate": 11025,
+      "frames": 11444
+    },
+    {
+      "name": "HOLD_ST",
+      "mixedSha256": "aa6cec710a82962802f0c27aeed26f4d66afd387a1384a9ef02f635bbba05f76",
+      "unmixedSha256": "aa6cec710a82962802f0c27aeed26f4d66afd387a1384a9ef02f635bbba05f76",
+      "mixedFile": "HOLD_ST.WAV",
+      "unmixedFile": "HOLD_ST.WAV",
+      "rate": 11025,
+      "frames": 13220
+    },
+    {
+      "name": "INVIN_EN",
+      "mixedSha256": "0253b342bfa66140dedc97e51c310a73919accb2170a6fce1b215ea40022603b",
+      "unmixedSha256": "0253b342bfa66140dedc97e51c310a73919accb2170a6fce1b215ea40022603b",
+      "mixedFile": "INVIN_EN.WAV",
+      "unmixedFile": "INVIN_EN.WAV",
+      "rate": 11025,
+      "frames": 13382
+    },
+    {
+      "name": "INVIN_ST",
+      "mixedSha256": "bd03284f50861aeadeb41120623c63d0171d8163a68e524c31bd6b6520894bde",
+      "unmixedSha256": "bd03284f50861aeadeb41120623c63d0171d8163a68e524c31bd6b6520894bde",
+      "mixedFile": "INVIN_ST.WAV",
+      "unmixedFile": "INVIN_ST.WAV",
+      "rate": 11025,
+      "frames": 15097
+    },
+    {
+      "name": "JUMP_EN",
+      "mixedSha256": "8bcf1811b35efde4a26d0160d88e6760380f23c563eb025ad9d577052db54ae1",
+      "unmixedSha256": "866f500ab827a007319e1796e55e9745782118a13678fe7061fb4989d53fde69",
+      "mixedFile": "mixed/JUMP_EN.WAV",
+      "unmixedFile": "JUMP_EN.WAV",
+      "rate": 11025,
+      "frames": 8167
+    },
+    {
+      "name": "JUMP_ST",
+      "mixedSha256": "0d0c7106cd6cb8c05ab6ea6b1aafd8f5f520d228a2778768c4c2bb2e4e144675",
+      "unmixedSha256": "0d0c7106cd6cb8c05ab6ea6b1aafd8f5f520d228a2778768c4c2bb2e4e144675",
+      "mixedFile": "JUMP_ST.WAV",
+      "unmixedFile": "JUMP_ST.WAV",
+      "rate": 11025,
+      "frames": 7643
+    },
+    {
+      "name": "LEVLSTRT",
+      "mixedSha256": "6a67c26d6e5eb260017dc27a3b2e266716b3058954efd5644f0fb7ea09de87a6",
+      "unmixedSha256": "6a67c26d6e5eb260017dc27a3b2e266716b3058954efd5644f0fb7ea09de87a6",
+      "mixedFile": "LEVLSTRT.WAV",
+      "unmixedFile": "LEVLSTRT.WAV",
+      "rate": 11025,
+      "frames": 30974
+    },
+    {
+      "name": "OBT_CLOA",
+      "mixedSha256": "a1a518289a27fe5d33d2f1a1d230253d0ba41277c0c36bbe5721cb4d13ddf7d4",
+      "unmixedSha256": "a1a518289a27fe5d33d2f1a1d230253d0ba41277c0c36bbe5721cb4d13ddf7d4",
+      "mixedFile": "OBT_CLOA.WAV",
+      "unmixedFile": "OBT_CLOA.WAV",
+      "rate": 11025,
+      "frames": 12533
+    },
+    {
+      "name": "OBT_HFLG",
+      "mixedSha256": "18109be456bf5f0bfd832814552388c3a5ff1372ec72bb640e3defd77c6dfade",
+      "unmixedSha256": "18109be456bf5f0bfd832814552388c3a5ff1372ec72bb640e3defd77c6dfade",
+      "mixedFile": "OBT_HFLG.WAV",
+      "unmixedFile": "OBT_HFLG.WAV",
+      "rate": 11025,
+      "frames": 11757
+    },
+    {
+      "name": "OBT_JUMP",
+      "mixedSha256": "191d689a23edd3f0a52989a79218192d82a9ff54e7a4be9a28ecce3efa417677",
+      "unmixedSha256": "191d689a23edd3f0a52989a79218192d82a9ff54e7a4be9a28ecce3efa417677",
+      "mixedFile": "OBT_JUMP.WAV",
+      "unmixedFile": "OBT_JUMP.WAV",
+      "rate": 11025,
+      "frames": 12666
+    },
+    {
+      "name": "OBT_RFLG",
+      "mixedSha256": "d9628bb98d562cd107842ff76d918d22f0ac67457cc3880ef5277364cb0fe8f5",
+      "unmixedSha256": "d9628bb98d562cd107842ff76d918d22f0ac67457cc3880ef5277364cb0fe8f5",
+      "mixedFile": "OBT_RFLG.WAV",
+      "unmixedFile": "OBT_RFLG.WAV",
+      "rate": 11025,
+      "frames": 15091
+    },
+    {
+      "name": "OBT_WALL",
+      "mixedSha256": "f175b67cb897cb0990b1dc400f6534c3b2d43f5fe7291d35da71f23f672ba44b",
+      "unmixedSha256": "f175b67cb897cb0990b1dc400f6534c3b2d43f5fe7291d35da71f23f672ba44b",
+      "mixedFile": "OBT_WALL.WAV",
+      "unmixedFile": "OBT_WALL.WAV",
+      "rate": 11025,
+      "frames": 12695
+    },
+    {
+      "name": "SHIELD",
+      "mixedSha256": "96a512b1304064a31207bc70c55d751becbb5a434d54640f845d6731836118f3",
+      "unmixedSha256": "e3098b84774851e903312e38645da1d3cd35e5e8670471d249a503d3c36d024a",
+      "mixedFile": "mixed/SHIELD.WAV",
+      "unmixedFile": "SHIELD.WAV",
+      "rate": 11025,
+      "frames": 12927
+    },
+    {
+      "name": "SKID_ST",
+      "mixedSha256": "a6fb9e6c05e2655044b1fefe134fbb7d5da7349c07c2720c33570e0f43ec87e4",
+      "unmixedSha256": "a6fb9e6c05e2655044b1fefe134fbb7d5da7349c07c2720c33570e0f43ec87e4",
+      "mixedFile": "SKID_ST.WAV",
+      "unmixedFile": "SKID_ST.WAV",
+      "rate": 11025,
+      "frames": 12442
+    },
+    {
+      "name": "SPEED_EN",
+      "mixedSha256": "4cb84000998580d50dc8f4b374a9a7bacab2a67f20d0eb1f71633f2d9250b572",
+      "unmixedSha256": "4cb84000998580d50dc8f4b374a9a7bacab2a67f20d0eb1f71633f2d9250b572",
+      "mixedFile": "SPEED_EN.WAV",
+      "unmixedFile": "SPEED_EN.WAV",
+      "rate": 11025,
+      "frames": 13713
+    },
+    {
+      "name": "SPEED_RE",
+      "mixedSha256": "f491ba460ccb42dbbeddf5ef5672c23234d2a1b36e26d4c4fe7df70896cd058e",
+      "unmixedSha256": "f491ba460ccb42dbbeddf5ef5672c23234d2a1b36e26d4c4fe7df70896cd058e",
+      "mixedFile": "SPEED_RE.WAV",
+      "unmixedFile": "SPEED_RE.WAV",
+      "rate": 11025,
+      "frames": 10322
+    },
+    {
+      "name": "WINLEVEL",
+      "mixedSha256": "51bcf7cdeb4bfa4e1a9682b0f2944e3b00fb1d8a3a274524745ae1d15dad800a",
+      "unmixedSha256": "51bcf7cdeb4bfa4e1a9682b0f2944e3b00fb1d8a3a274524745ae1d15dad800a",
+      "mixedFile": "WINLEVEL.WAV",
+      "unmixedFile": "WINLEVEL.WAV",
+      "rate": 11025,
+      "frames": 36414
+    }
+  ]
+}

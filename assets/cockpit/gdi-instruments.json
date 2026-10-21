@@ -1,0 +1,68 @@
+{
+  "sourceSha256": "aa403971dd7e25632d9df223d2595911c63e50685d2058672f584bd7322a14b9",
+  "windowsVersion": "0xc0000004",
+  "arrowRange": [
+    -40,
+    40
+  ],
+  "arrowCases": 26244,
+  "meterFrames": 452,
+  "maps": [
+    {
+      "indices": {
+        "black": 236,
+        "yellow": 69,
+        "slowdown": 16,
+        "speedup": 0
+      },
+      "colors": {
+        "black": "#000000",
+        "yellow": "#c89d77",
+        "slowdown": "#fb0303",
+        "speedup": "#03fbfb"
+      }
+    },
+    {
+      "indices": {
+        "black": 0,
+        "yellow": 75,
+        "slowdown": 28,
+        "speedup": 149
+      },
+      "colors": {
+        "black": "#000000",
+        "yellow": "#f7f70b",
+        "slowdown": "#fb0000",
+        "speedup": "#00fb9b"
+      }
+    },
+    {
+      "indices": {
+        "black": 0,
+        "yellow": 118,
+        "slowdown": 54,
+        "speedup": 50
+      },
+      "colors": {
+        "black": "#000000",
+        "yellow": "#ffff00",
+        "slowdown": "#ff0000",
+        "speedup": "#2fdfb7"
+      }
+    },
+    {
+      "indices": {
+        "black": 0,
+        "yellow": 131,
+        "slowdown": 16,
+        "speedup": 183
+      },
+      "colors": {
+        "black": "#000000",
+        "yellow": "#fbfb07",
+        "slowdown": "#fb0707",
+        "speedup": "#3ff73f"
+      }
+    }
+  ]
+}

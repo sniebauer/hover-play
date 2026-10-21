@@ -1,0 +1,56 @@
+{
+  "sourceUrl": "https://archive.org/download/HoverGame/HoverGame.zip",
+  "formatReference": "https://github.com/philip-searle/Merlin/tree/f39eafd",
+  "mazes": [
+    {
+      "file": "MAZE1.MAZ",
+      "sha256": "a93801e0fc510688eca8ce650035884f3972d9d8191a347c57ead9c7dccf768e",
+      "walls": 542,
+      "locations": 125,
+      "bspNodes": 544
+    },
+    {
+      "file": "MAZE2.MAZ",
+      "sha256": "7013a61363d4a9dbca2b6ee1293b02712b9c8c1a58974b64e4385b6191eedba3",
+      "walls": 377,
+      "locations": 118,
+      "bspNodes": 382
+    },
+    {
+      "file": "MAZE3.MAZ",
+      "sha256": "15eb128c31e058cf1c73c38afc91c12273cdb4e1cd9ab2204ff119f3be3a2280",
+      "walls": 676,
+      "locations": 128,
+      "bspNodes": 676
+    },
+    {
+      "file": "SMALL.MAZ",
+      "sha256": "270aa006648b6cd11f64be8d948e177b3daf3ce15e5be2820bbc5e01d29a8af4",
+      "walls": 28,
+      "locations": 1,
+      "bspNodes": 28
+    }
+  ],
+  "texturePacks": [
+    {
+      "file": "SMALL.TEX",
+      "sha256": "4074ca8de2c0f84903efde27b8cf5a54b8f41285e16af3ee9e5ce1b13bd2d705",
+      "textures": 21
+    },
+    {
+      "file": "TEXT1.TEX",
+      "sha256": "013e013579cf022aeadedf881a18f3a1da6ca7003720a24388b03abe6a0dbd9a",
+      "textures": 151
+    },
+    {
+      "file": "TEXT2.TEX",
+      "sha256": "1bd73d93c73e7fdaf8112205068ed861dc8ae37357429c01021e45e8a6ea39a8",
+      "textures": 154
+    },
+    {
+      "file": "TEXT3.TEX",
+      "sha256": "260ee0259f8a0cc4a9b6d5d014b8330d2e999c8855b5b5c99959fc54a89629f2",
+      "textures": 151
+    }
+  ]
+}

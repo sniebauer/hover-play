@@ -1,0 +1,165 @@
+{
+  "captureSha256": "30738fa97796e87aab092461eb58f8196605f30702d51f2a7cece4ec496be0a8",
+  "sourceWindowClass": "MS_WINNOTE",
+  "sourceScreenRect": [
+    124,
+    184,
+    449,
+    235
+  ],
+  "outerSizeWithShadow": [
+    325,
+    51
+  ],
+  "panelSize": [
+    319,
+    45
+  ],
+  "frame": {
+    "outerWidth": 1,
+    "outerColor": "#000000",
+    "innerWidth": 1,
+    "innerColor": "#c0c0c0"
+  },
+  "background": {
+    "file": "popup-background.png",
+    "size": [
+      8,
+      8
+    ],
+    "sourceRect": [
+      2,
+      2,
+      10,
+      10
+    ],
+    "panelPhaseOrigin": [
+      2,
+      2
+    ],
+    "sha256": "d23c4b23e24487be8489275a3eb8d7acff6ffa36f5f35cc50edd6e9b6c9cd91a"
+  },
+  "shadow": {
+    "file": "popup-shadow.png",
+    "size": [
+      2,
+      2
+    ],
+    "sourceRect": [
+      320,
+      6,
+      322,
+      8
+    ],
+    "offset": [
+      6,
+      6
+    ],
+    "opaqueParity": "even x+y relative to panel origin in the Set Keys asset",
+    "sha256": "6a4042916b43afcf57f1f1a9b64a2e7d04f6d1f23e3b98cb4d443c38c2fe05a7",
+    "scope": "Black checker cells observed; transparent cells inferred from the stippled overlay. No popup-free underlay capture is available."
+  },
+  "setKeysText": {
+    "topicId": "1LNE0HW",
+    "cellOrigin": [
+      19,
+      8
+    ],
+    "lineAdvance": 15,
+    "cellHeight": 13,
+    "wrapWidth": 290,
+    "lineWidths": [
+      290,
+      21
+    ]
+  },
+  "scope": "Actual original WinHelp popups. Exact panels reconstruct with each capture's measured brush phase; a general background brush-origin rule is not recovered.",
+  "captures": [
+    {
+      "name": "set-keys",
+      "topicId": "1LNE0HW",
+      "captureSha256": "30738fa97796e87aab092461eb58f8196605f30702d51f2a7cece4ec496be0a8",
+      "sourceScreenRect": [
+        124,
+        184,
+        449,
+        235
+      ],
+      "outerSizeWithShadow": [
+        325,
+        51
+      ],
+      "panelSize": [
+        319,
+        45
+      ],
+      "backgroundTileShift": [
+        0,
+        0
+      ],
+      "shadowOpaqueLocalParity": 0,
+      "text": {
+        "cellOrigin": [
+          19,
+          8
+        ],
+        "lineAdvance": 15,
+        "cellHeight": 13,
+        "wrapWidth": 290,
+        "lineWidths": [
+          290,
+          21
+        ]
+      }
+    },
+    {
+      "name": "jump-key",
+      "topicId": "C3AIJ1",
+      "captureSha256": "b5f9a052e0e90c82525663a8b2d8842ec5846cc78995b89a1df7741fb2e172bf",
+      "sourceScreenRect": [
+        127,
+        266,
+        445,
+        332
+      ],
+      "outerSizeWithShadow": [
+        318,
+        66
+      ],
+      "panelSize": [
+        312,
+        60
+      ],
+      "backgroundTileShift": [
+        5,
+        4
+      ],
+      "shadowOpaqueLocalParity": 1,
+      "text": {
+        "cellOrigin": [
+          19,
+          8
+        ],
+        "lineAdvance": 15,
+        "cellHeight": 13,
+        "wrapWidth": 290,
+        "lineWidths": [
+          282,
+          283,
+          226
+        ]
+      }
+    }
+  ],
+  "layoutEvidence": {
+    "maximumWrapWidth": 290,
+    "maximumPanelWidth": 319,
+    "panelWidth": "maximum wrapped line advance + 29",
+    "panelHeight": "line count * 15 + 15",
+    "scope": "Observed in the two retained regular, single-paragraph popups. Other content and viewport constraints are not proved by these captures."
+  },
+  "phaseEvidence": {
+    "background": "The second capture uses tile shift (5,4), not its screen-origin delta (3,2). General brush-origin behavior is unresolved; the shipped tile remains the Set Keys phase.",
+    "shadow": "Opaque checker cells fall on even desktop x+y in both captures; this yields local parity 0 for Set Keys and 1 for Jump Key. Transparent cells remain inferred without a popup-free underlay."
+  }
+}

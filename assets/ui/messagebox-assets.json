@@ -1,0 +1,18 @@
+{
+  "source": "WINDOWS/SYSTEM/USER.EXE",
+  "sha256": "32f37a51b0e1a11d4046c67273e226c8e00ac9b1fda7dbac8bad8ae043f1d903",
+  "group": 101,
+  "icon": 7,
+  "dib_sha256": "fe13a4b17c3d7f61b813409c121460d876ca2ee3875c0ffc53448ccc35c05008",
+  "width": 32,
+  "height": 32,
+  "rgba_sha256": "1967453f2e1aeb5c62048aab39de21973c2cb12246faf02142605ff03d00ab5d",
+  "question": {
+    "group": 102,
+    "icon": 9,
+    "width": 32,
+    "height": 32,
+    "dib_sha256": "6f983198365f3c632c77d6e49ecac99c95d5e5cb81a0c719ad8dafcb599e0a5e",
+    "rgba_sha256": "da526c10aa9d6c1931719cbbb8a07b3ec3054f768ca0a8753aeb57bc334c51c8"
+  }
+}

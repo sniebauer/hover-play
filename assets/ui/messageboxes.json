@@ -1,0 +1,106 @@
+{
+  "exe_sha256": "e49b284bed8773bc2a14f4977d1be4ce5eedd1df79896e7b556e7eb538e2f09a",
+  "restart": {
+    "resource": "0xef3c",
+    "text": "Are  you sure you want to quit the game in progress?",
+    "flags": 52,
+    "icon": "warning",
+    "buttons": [
+      "Yes",
+      "No"
+    ],
+    "default": "Yes",
+    "cancel": null
+  },
+  "play_again": {
+    "resource": "0xef4a",
+    "text": "You have been defeated!  The Drones have captured all of your flags.\n\nWould you like to play again?",
+    "flags": 36,
+    "icon": "question",
+    "buttons": [
+      "Yes",
+      "No"
+    ],
+    "default": "Yes",
+    "cancel": null
+  },
+  "calls": {
+    "new_game": {
+      "address": "0x41d44c",
+      "requested_flags": 4,
+      "resource": "0xef3c"
+    },
+    "start_at": {
+      "address": "0x425cdd",
+      "requested_flags": 4,
+      "resource": "0xef3c"
+    },
+    "exit": {
+      "address": "0x41d6ff",
+      "requested_flags": 4,
+      "resource": "0xef4f"
+    },
+    "play_again": {
+      "address": "0x425ba7",
+      "requested_flags": 36,
+      "resource": "0xef4a"
+    }
+  },
+  "mfc_icon_cases": [
+    {
+      "os_major": 3,
+      "win4": 0,
+      "requested_flags": 1,
+      "messagebox_flags": 49
+    },
+    {
+      "os_major": 3,
+      "win4": 0,
+      "requested_flags": 4,
+      "messagebox_flags": 36
+    },
+    {
+      "os_major": 3,
+      "win4": 0,
+      "requested_flags": 36,
+      "messagebox_flags": 36
+    },
+    {
+      "os_major": 4,
+      "win4": 1,
+      "requested_flags": 1,
+      "messagebox_flags": 49
+    },
+    {
+      "os_major": 4,
+      "win4": 1,
+      "requested_flags": 4,
+      "messagebox_flags": 52
+    },
+    {
+      "os_major": 4,
+      "win4": 1,
+      "requested_flags": 36,
+      "messagebox_flags": 36
+    },
+    {
+      "os_major": 5,
+      "win4": 1,
+      "requested_flags": 1,
+      "messagebox_flags": 49
+    },
+    {
+      "os_major": 5,
+      "win4": 1,
+      "requested_flags": 4,
+      "messagebox_flags": 52
+    },
+    {
+      "os_major": 5,
+      "win4": 1,
+      "requested_flags": 36,
+      "messagebox_flags": 36
+    }
+  ],
+  "scope": "Original resources, call-site immediates, OS-major decoding and MFC icon flag selection. MessageBox drawing and Win32 input dispatch are not emulated."
+}

@@ -1,0 +1,223 @@
+{
+  "captureSha256": "999337ed85c90b73df0285389a04c104a9c0009aa079d8ae1095b91adf569318",
+  "scope": "Windows 95 MessageBoxA control bounds and pixels using recovered original inputs.",
+  "dialogs": {
+    "restart": {
+      "outerSize": [
+        323,
+        119
+      ],
+      "clientSize": [
+        317,
+        94
+      ],
+      "clientOffset": [
+        3,
+        22
+      ],
+      "controls": {
+        "6": [
+          80,
+          60,
+          75,
+          23
+        ],
+        "7": [
+          161,
+          60,
+          75,
+          23
+        ],
+        "10": [
+          11,
+          11,
+          32,
+          32
+        ],
+        "65535": [
+          59,
+          20,
+          249,
+          15
+        ]
+      }
+    },
+    "play-again": {
+      "outerSize": [
+        381,
+        139
+      ],
+      "clientSize": [
+        375,
+        114
+      ],
+      "clientOffset": [
+        3,
+        22
+      ],
+      "controls": {
+        "6": [
+          110,
+          80,
+          75,
+          23
+        ],
+        "7": [
+          191,
+          80,
+          75,
+          23
+        ],
+        "10": [
+          11,
+          11,
+          32,
+          32
+        ],
+        "65535": [
+          59,
+          11,
+          308,
+          54
+        ]
+      }
+    },
+    "clear-scores": {
+      "outerSize": [
+        320,
+        119
+      ],
+      "clientSize": [
+        314,
+        94
+      ],
+      "clientOffset": [
+        3,
+        22
+      ],
+      "controls": {
+        "1": [
+          80,
+          60,
+          75,
+          23
+        ],
+        "2": [
+          161,
+          60,
+          75,
+          23
+        ],
+        "10": [
+          11,
+          11,
+          32,
+          32
+        ],
+        "65535": [
+          59,
+          20,
+          246,
+          15
+        ]
+      }
+    }
+  },
+  "pixels": {
+    "restartCloseSourceRect": [
+      302,
+      5,
+      318,
+      19
+    ],
+    "play-againCloseSourceRect": [
+      360,
+      5,
+      376,
+      19
+    ],
+    "clear-scoresCloseSourceRect": [
+      299,
+      5,
+      315,
+      19
+    ],
+    "messagebox-close-disabled.png": {
+      "size": [
+        16,
+        14
+      ],
+      "sha256": "b991aa145d14e1c16d3201399a5482cf64b0f9de140f8f9587c87e2c870c4ee3"
+    },
+    "messagebox-close-enabled.png": {
+      "size": [
+        16,
+        14
+      ],
+      "sha256": "812e71d479dadf1a699bdbd943e9bfd9a5d951cdb0ad4551d561e805bed3c6ac"
+    },
+    "messagebox-focus.png": {
+      "size": [
+        67,
+        15
+      ],
+      "sha256": "abf5389af4474e9894b7a1e462c31a23304a9c5ba8997a3c753dbb54479aa442"
+    },
+    "messagebox-text-restart.png": {
+      "size": [
+        249,
+        15
+      ],
+      "sha256": "d8b383f52625ac3011b8888127df8f61b8c1b0c446abd63c4cb7f51e7ae84b0d"
+    },
+    "messagebox-caption.png": {
+      "size": [
+        36,
+        16
+      ],
+      "sha256": "5a37d31313511e3e7d8a55fe91f3375c696a69965a35566f69686c548bcfb309"
+    },
+    "messagebox-label-yes.png": {
+      "size": [
+        63,
+        13
+      ],
+      "sha256": "9c08433ab49bfeb52890528089acb3127c3d565bb2e6de1e4e254c34c93c3155"
+    },
+    "messagebox-label-no.png": {
+      "size": [
+        63,
+        13
+      ],
+      "sha256": "9248b2dd3f4c8b75d22d38ffb48b61be0004b6cf2f19a5f1077132143a3cfb9d"
+    },
+    "messagebox-text-play-again.png": {
+      "size": [
+        308,
+        54
+      ],
+      "sha256": "d0b18fb1194d1ad2117f9ebf829e5e5c3679dc46eaa4dc487f28321890b61f4f"
+    },
+    "messagebox-text-clear-scores.png": {
+      "size": [
+        246,
+        15
+      ],
+      "sha256": "2fff2a4346dc8c3ad1152329e9a4a1a4e869265addf631c79c01c66b8a70874d"
+    },
+    "messagebox-label-ok.png": {
+      "size": [
+        63,
+        13
+      ],
+      "sha256": "7c329a43efc5ec4f0c27e5c9ea46b9b779deee2dd7e443c374fd052c9bc5228e"
+    },
+    "messagebox-label-cancel.png": {
+      "size": [
+        63,
+        13
+      ],
+      "sha256": "8d88e1ab840bcc96294647e69665b33c496c2d1119c102923faffc2cd9ebf467"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "WINDOWS/FONTS/TIMES.TTF",
+  "source_snapshot": "hover-before-lines-disk.qcow2",
+  "bytes": 85240,
+  "sha256": "7d41b3a5dd98b3d7d20f33699b83c08d83fc1741efede31c9082f0611950f0ee",
+  "family": "Times New Roman",
+  "style": "Regular",
+  "version": "MS core font:V2.00",
+  "emdash": {
+    "codepoint": "U+2014",
+    "glyph": "emdash",
+    "advance": 2048
+  },
+  "units_per_em": 2048
+}

@@ -1,0 +1,1955 @@
+{
+  "exe_sha256": "e49b284bed8773bc2a14f4977d1be4ce5eedd1df79896e7b556e7eb538e2f09a",
+  "scope": "Original complete 406090 world renderer, including BSP, sprites, panorama, palette shading, mip selection and pixel writers. Controlled camera poses and texture frames. Comparison masks exclude untouched framebuffer edges and original reads beyond texture allocations. No whole-game simulation, HUD or OS presentation parity is claimed.",
+  "inputs": {
+    "MAZES/TEXT1.TEX": "013e013579cf022aeadedf881a18f3a1da6ca7003720a24388b03abe6a0dbd9a",
+    "MAZES/MAZE1.MAZ": "a93801e0fc510688eca8ce650035884f3972d9d8191a347c57ead9c7dccf768e",
+    "MAZES/TEXT2.TEX": "1bd73d93c73e7fdaf8112205068ed861dc8ae37357429c01021e45e8a6ea39a8",
+    "MAZES/SMALL.TEX": "4074ca8de2c0f84903efde27b8cf5a54b8f41285e16af3ee9e5ce1b13bd2d705",
+    "MAZES/SMALL.MAZ": "270aa006648b6cd11f64be8d948e177b3daf3ce15e5be2820bbc5e01d29a8af4",
+    "MAZES/MAZE3.MAZ": "15eb128c31e058cf1c73c38afc91c12273cdb4e1cd9ab2204ff119f3be3a2280",
+    "MAZES/MAZE2.MAZ": "7013a61363d4a9dbca2b6ee1293b02712b9c8c1a58974b64e4385b6191eedba3",
+    "MAZES/TEXT3.TEX": "260ee0259f8a0cc4a9b6d5d014b8330d2e999c8855b5b5c99959fc54a89629f2"
+  },
+  "frames": [
+    {
+      "name": "walls-1-0",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 104,
+      "heading": 500,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-1-0.png",
+      "mask": "walls-1-0.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "a6c006dc1d6690ccc8480c6c1f20b79bc75fd45f556041397113a5e685e40daa",
+      "seen": [
+        6,
+        7,
+        152,
+        169,
+        171,
+        280,
+        317,
+        325,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-1",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 104,
+      "heading": 0,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-1-1.png",
+      "mask": "walls-1-1.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "112cd2d2842903efe26f106c88593ce5711cd22e0fcd243fcbbd8080ddb5bfb8",
+      "seen": [
+        6,
+        7,
+        152,
+        165,
+        167,
+        169,
+        171,
+        280,
+        317,
+        325,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-2",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 104,
+      "heading": 12,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-1-2.png",
+      "mask": "walls-1-2.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "beb26d74c4091781082b5941febba14fea1919a1f73c1f50f6d5d12637558def",
+      "seen": [
+        6,
+        7,
+        152,
+        163,
+        165,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-3",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 104,
+      "heading": 24,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-1-3.png",
+      "mask": "walls-1-3.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "17ef3c28175cbfdc72bae94e9cb15c9544c593bfffd9ccc393baa0c5d7197064",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        152,
+        161,
+        162,
+        163,
+        164,
+        165,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-4",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 180,
+      "heading": 500,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-1-4.png",
+      "mask": "walls-1-4.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "12e828d7f5a80088a4cc0104ff13f644ffbe58e5b10df9a5d19a62d963e64822",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        152,
+        161,
+        162,
+        163,
+        164,
+        165,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-5",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 180,
+      "heading": 0,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-1-5.png",
+      "mask": "walls-1-5.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "3ce0dd36709b6aa31a1089d7205f811c537e2b654c587b5fb5893e1314656b15",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        152,
+        161,
+        162,
+        163,
+        164,
+        165,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-6",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 180,
+      "heading": 12,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-1-6.png",
+      "mask": "walls-1-6.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "d09cddecb382126a95e394c7110e598d22231b04d1c4a41f7a6a9b986f51aa1d",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        152,
+        161,
+        162,
+        163,
+        164,
+        165,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-7",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 180,
+      "heading": 24,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-1-7.png",
+      "mask": "walls-1-7.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "a2643acb7cf6fd32a05aa47fcce60b926a013cc665aadc68a142d1746407be49",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        152,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        169,
+        171,
+        276,
+        280,
+        317,
+        325,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-8",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 290,
+      "heading": 500,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 2090,
+          "y": 2720,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-1-8.png",
+      "mask": "walls-1-8.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "18895a8a60f22c665ed9247833dc1eaef104b3df496d2d8fa2d67824a8faefef",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        58,
+        121,
+        122,
+        129,
+        147,
+        148,
+        149,
+        152,
+        153,
+        158,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        169,
+        171,
+        276,
+        280,
+        313,
+        317,
+        325,
+        329,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-9",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 290,
+      "heading": 0,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 2090,
+          "y": 2720,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-1-9.png",
+      "mask": "walls-1-9.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "44ee211fd1038733faa19eddea0e71fde480b9fb875abc6b5c53d7acb8c2ea66",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        29,
+        58,
+        121,
+        122,
+        129,
+        147,
+        148,
+        149,
+        152,
+        153,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        169,
+        171,
+        172,
+        205,
+        276,
+        280,
+        313,
+        317,
+        325,
+        329,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-10",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 290,
+      "heading": 12,
+      "width": 232,
+      "height": 172,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            1690,
+            2520,
+            1690,
+            2920
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            2226,
+            2470,
+            2004,
+            2802
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 2090,
+          "y": 2720,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "mirror": true,
+      "image": "walls-1-10.png",
+      "mask": "walls-1-10.mask",
+      "paintedPixels": 39732,
+      "definedPixels": 39730,
+      "undefinedTextureReads": 2,
+      "sha256": "ea90576be21d227af3d3da0e3cbc750c243cfc70d965dc7f6b5bd214457668bb",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        29,
+        31,
+        58,
+        121,
+        122,
+        129,
+        147,
+        148,
+        149,
+        152,
+        153,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        169,
+        171,
+        172,
+        205,
+        270,
+        276,
+        280,
+        281,
+        313,
+        317,
+        325,
+        329,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-1-11",
+      "map": 1,
+      "x": 1440,
+      "y": 2720,
+      "z": 290,
+      "heading": 24,
+      "width": 320,
+      "height": 240,
+      "actors": [],
+      "image": "walls-1-11.png",
+      "mask": "walls-1-11.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76557,
+      "undefinedTextureReads": 3,
+      "sha256": "6cee1b7f1b258e8cad17b0266d955fd7bb785f4180b07dcfa47032187ee93511",
+      "seen": [
+        6,
+        7,
+        23,
+        25,
+        27,
+        29,
+        31,
+        58,
+        121,
+        122,
+        129,
+        147,
+        148,
+        149,
+        152,
+        153,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        172,
+        205,
+        270,
+        276,
+        280,
+        281,
+        313,
+        317,
+        325,
+        329,
+        359,
+        360,
+        361,
+        474,
+        485,
+        515,
+        516
+      ]
+    },
+    {
+      "name": "walls-2-0",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 104,
+      "heading": 467,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-2-0.png",
+      "mask": "walls-2-0.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "e8a4339acca076f81e2e709341b4b2b74ff6c2915027ac52634eba8f762d2e87",
+      "seen": [
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-1",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 104,
+      "heading": 479,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-2-1.png",
+      "mask": "walls-2-1.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "1004ffb8f1765e47736429ae638c8a15e3cb2028e632dddca40d47e3dbcd319d",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-2",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 104,
+      "heading": 491,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-2-2.png",
+      "mask": "walls-2-2.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "b14e31ccf0ffd3e6e0e79a267d92dbd5d4de1a5bd89114b5fb8e1002985921b2",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-3",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 104,
+      "heading": 503,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-2-3.png",
+      "mask": "walls-2-3.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "f032681fe8bcc16a77444fb4f156041effd9be9c5af9eec07272aefac9ffa7fb",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-4",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 180,
+      "heading": 467,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-2-4.png",
+      "mask": "walls-2-4.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "4b3cf139213ffd9d3dfbfea11de0edb0e8e8e38fda4dfb4c2077eb96e8823bd3",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-5",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 180,
+      "heading": 479,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-2-5.png",
+      "mask": "walls-2-5.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "444f349cc175cdbd4a2447dcb1c0d70e88cf6b57cefc5a4fd66bc997e5ab00e2",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-6",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 180,
+      "heading": 491,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-2-6.png",
+      "mask": "walls-2-6.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "47b710f12b0a5834abd7712a85e249ecd00f1cc7345842bb3f5528d69a979417",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-7",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 180,
+      "heading": 503,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-2-7.png",
+      "mask": "walls-2-7.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "2eab7213507797137ea6731f6e91ccd0bebc7aa36107bcea5622936bd61dce39",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-8",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 290,
+      "heading": 467,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 13997,
+          "y": 15244,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-2-8.png",
+      "mask": "walls-2-8.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "a1905c5ca19660b7ae0d14b77b164c9d5c12004604c2782935c558e63e86b003",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-9",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 290,
+      "heading": 479,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 13997,
+          "y": 15244,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-2-9.png",
+      "mask": "walls-2-9.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "5a1056370e712f3553d30efc3c601fbdf9402821a66fdcc9ff33fdd1a50da562",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-10",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 290,
+      "heading": 491,
+      "width": 232,
+      "height": 172,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            13550,
+            15217,
+            13708,
+            15585
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            14024,
+            14960,
+            13951,
+            15353
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 13997,
+          "y": 15244,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "mirror": true,
+      "image": "walls-2-10.png",
+      "mask": "walls-2-10.mask",
+      "paintedPixels": 39732,
+      "definedPixels": 39732,
+      "undefinedTextureReads": 0,
+      "sha256": "1656fc72109550c3992dae50a1ddb9272491c5eb43a516ec77edab90cde36b3d",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-2-11",
+      "map": 2,
+      "x": 13400,
+      "y": 15500,
+      "z": 290,
+      "heading": 503,
+      "width": 320,
+      "height": 240,
+      "actors": [],
+      "image": "walls-2-11.png",
+      "mask": "walls-2-11.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "bfd646b77cf5f3238e58838aa9cc0f0e370f9558f99e65bd88158fb3f886a794",
+      "seen": [
+        137,
+        141,
+        309,
+        341
+      ]
+    },
+    {
+      "name": "walls-3-0",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 104,
+      "heading": 426,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-3-0.png",
+      "mask": "walls-3-0.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "923b1ef3b7d03692a9ad18df9ed623c50be93b2b01e9c8120209d5c28ed90745",
+      "seen": [
+        99,
+        155,
+        375,
+        379,
+        453,
+        551
+      ]
+    },
+    {
+      "name": "walls-3-1",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 104,
+      "heading": 438,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-3-1.png",
+      "mask": "walls-3-1.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "1aba89c5026c63fcaadd7b96e88ae15c8e39f1dd9117c3c397f8f3cd4db52e06",
+      "seen": [
+        99,
+        155,
+        375,
+        379,
+        453,
+        551
+      ]
+    },
+    {
+      "name": "walls-3-2",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 104,
+      "heading": 450,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-3-2.png",
+      "mask": "walls-3-2.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "786598bf09c84fcecaf7bc3bdded433e8fec43e18be4395b65f403d044d93bba",
+      "seen": [
+        98,
+        99,
+        155,
+        375,
+        379,
+        453,
+        551
+      ]
+    },
+    {
+      "name": "walls-3-3",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 104,
+      "heading": 462,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        }
+      ],
+      "image": "walls-3-3.png",
+      "mask": "walls-3-3.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "e8d8d5c780fa5fee24ff19a4f6dafca7eee3f4b539231e111ec51b73fe0aad96",
+      "seen": [
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        375,
+        379,
+        453,
+        551
+      ]
+    },
+    {
+      "name": "walls-3-4",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 180,
+      "heading": 426,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-3-4.png",
+      "mask": "walls-3-4.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "46920b51a173bc57f3a73317f74e281449004959788917254736c0636409f7ab",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-5",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 180,
+      "heading": 438,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-3-5.png",
+      "mask": "walls-3-5.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "80af0fc53b7b995d07797d9de7352d49eecb5e92efc7aaa4830e789b6d89f94f",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-6",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 180,
+      "heading": 450,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-3-6.png",
+      "mask": "walls-3-6.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "fd832f6576ebee991e3bc197688298461756ddadf046ae6a9de093744cf5f41f",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-7",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 180,
+      "heading": 462,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        }
+      ],
+      "image": "walls-3-7.png",
+      "mask": "walls-3-7.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "54cd5fc8394298e8b1c1a9b396e2af492262fb9cf2f95b39de52aa0e5ec5301f",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-8",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 290,
+      "heading": 426,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 16300,
+          "y": 3488,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-3-8.png",
+      "mask": "walls-3-8.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76559,
+      "undefinedTextureReads": 1,
+      "sha256": "0a077a9ff71f0b6f318180e7dc418982ad18d7204877e6c703b459384092f788",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        202,
+        203,
+        204,
+        206,
+        207,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-9",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 290,
+      "heading": 438,
+      "width": 320,
+      "height": 240,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 16300,
+          "y": 3488,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "image": "walls-3-9.png",
+      "mask": "walls-3-9.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "46022a010152c0cb6f25c42f0d54c2e3c3bcde87aeb0cd1afbfd9821d56a17c7",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-10",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 290,
+      "heading": 450,
+      "width": 232,
+      "height": 172,
+      "actors": [
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            15896,
+            3679,
+            16211,
+            3925
+          ],
+          "bottom": 0,
+          "top": 256
+        },
+        {
+          "texture": "FORCE_FIELD",
+          "endpoints": [
+            16187,
+            3226,
+            16312,
+            3606
+          ],
+          "bottom": 96,
+          "top": 352
+        },
+        {
+          "texture": "FLG00_00",
+          "x": 16300,
+          "y": 3488,
+          "bottom": 0,
+          "top": 256,
+          "halfWidth": 64
+        }
+      ],
+      "mirror": true,
+      "image": "walls-3-10.png",
+      "mask": "walls-3-10.mask",
+      "paintedPixels": 39732,
+      "definedPixels": 39732,
+      "undefinedTextureReads": 0,
+      "sha256": "893607dd776ea8b046c418d811242ea8ae126c03b568ac880361ec6fe389e18d",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        98,
+        99,
+        100,
+        155,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        375,
+        379,
+        453,
+        551,
+        582
+      ]
+    },
+    {
+      "name": "walls-3-11",
+      "map": 3,
+      "x": 15900,
+      "y": 4000,
+      "z": 290,
+      "heading": 462,
+      "width": 320,
+      "height": 240,
+      "actors": [],
+      "image": "walls-3-11.png",
+      "mask": "walls-3-11.mask",
+      "paintedPixels": 76560,
+      "definedPixels": 76560,
+      "undefinedTextureReads": 0,
+      "sha256": "aa276b3f5f811d7efc83d736f7c5318868f55787476c28cb625ad6ee3920c4b9",
+      "seen": [
+        20,
+        21,
+        22,
+        23,
+        96,
+        97,
+        98,
+        99,
+        100,
+        155,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        374,
+        375,
+        379,
+        381,
+        389,
+        391,
+        453,
+        551,
+        582
+      ]
+    }
+  ]
+}

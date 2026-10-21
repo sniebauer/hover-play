@@ -1,0 +1,4291 @@
+{
+  "source": {
+    "HOVER.HLP": "58d6810f3c77e0237357e6ab67c24fc460c3680ddb598b67169a2c767f0a4344",
+    "HOVER.CNT": "5b3d83fbf446fc43585b41b9ba4d7f4c2d5820c574cb16c066a7919ce0ea4106",
+    "HOVERHLP.DLL": "90470a88ae499a96a046796b3a5f10951b0b6d2f9ca6746228fc56c2611134b2",
+    "HOVRREAD.TXT": "8091d2e5dbffe5a56386b463d653d1616c47302248f064a259c3e0d44a9e6948"
+  },
+  "helpdecoCommit": "785273788af17fde4fba7df7162d547f8645d7d8",
+  "topics": [
+    {
+      "id": "LCGTNY",
+      "title": "Objects in the maze",
+      "groups": [
+        "a-playingtopics"
+      ],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "",
+              "font": "times"
+            },
+            {
+              "text": "",
+              "font": "times"
+            },
+            {
+              "text": "Objects in the maze",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "The tables below describe each object in the game. Click the graphic to hear the sounds of picking up and using objects."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Sound when picked up",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "Sound when used",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "Description",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm0.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "OBT_HFLG",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Your flag. The enemy is collecting them as fast as they can."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm1.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "OBT_RFLG",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Enemy flag. You need to collect all of these before the enemy drones collect all of yours."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm2.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "OBT_CLOA",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "CLOAK_ST",
+                      "repeat": 1
+                    },
+                    {
+                      "name": "CLOAK_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Cloak. Temporarily hides you from drones."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm4.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "OBT_WALL",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SHIELD",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Puts up a temporary wall. Use it to slow down a drone."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm5.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "OBT_JUMP",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "JUMP_ST",
+                      "repeat": 1
+                    },
+                    {
+                      "name": "JUMP_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Allows you to jump to look over a low wall and to jump over a hazard or enemy."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm6.png"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Mystery pod. It could be something good or bad. You take your chances with this one! The sound you hear when you pick up the pod is the sound for the object inside."
+              }
+            ]
+          ],
+          "widths": [
+            1075,
+            1975,
+            3955
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Click the graphics to hear the sound of activating that object and the sound when you return to a normal state."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Sound when activated",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "Sound when finished",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "Description",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm7.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "INVIN_ST",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "INVIN_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Makes you temporarily invincible to skid pads, hold pads, map erasers, flag removers, and speed reduction pods."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm8.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SPEED_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SPEED_RE",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Zoom Zoom!"
+              },
+              {
+                "text": "—",
+                "font": "times"
+              },
+              {
+                "text": "Temporarily increases your speed."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm9.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SPEED_RE",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SPEED_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Hey leadfoot, slow down!"
+              },
+              {
+                "text": "—",
+                "font": "times"
+              },
+              {
+                "text": "Temporarily reduces your speed."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm10.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HOLD_ST",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HOLD_EN",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Watch out!"
+              },
+              {
+                "text": "—",
+                "font": "times"
+              },
+              {
+                "text": "Temporarily freezes you to the spot."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm11.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "FLAGR_ST",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Returns a flag you have captured back into the maze."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm12.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HIT_MAPE",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [],
+            [
+              {
+                "text": "\n"
+              },
+              {
+                "text": "Erases your map."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "image": "bm13.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "SKID_ST",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Beware!"
+              },
+              {
+                "text": "—",
+                "font": "times"
+              },
+              {
+                "text": "Sends you skidding in an unpredictable direction."
+              }
+            ]
+          ],
+          "widths": [
+            985,
+            2035,
+            3955
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "The following actions are not associated with a specific object."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "When this happens ",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "You will hear this",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            2245,
+            4045
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Your craft hits a wall"
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HIT_WALL",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "widths": [
+            2245,
+            4045
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Your craft collides with a drone"
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HIT_ROBT",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "widths": [
+            2245,
+            4045
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "An enemy drone has seen you"
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "ATTKPING",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "widths": [
+            2245,
+            4045
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "You run into a pod that you cannot pick up because your container for that pod type is full"
+              }
+            ],
+            [
+              {
+                "image": "bm3.png",
+                "action": {
+                  "sounds": [
+                    {
+                      "name": "HIT_POD",
+                      "repeat": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "widths": [
+            2245,
+            4045
+          ]
+        }
+      ]
+    },
+    {
+      "id": "_K617M",
+      "title": "Starting at a specific level",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "",
+              "bold": true
+            },
+            {
+              "text": "To start at a specific level",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Game menu, click Start At."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "In the Start At level box, type or click the level number you want to start at between 1 and 16. The higher the level, the more drones there are and the more flags you have to collect."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "3"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "If you want to change game settings, such as level of difficulty or the order the mazes are displayed, click Customize, and then make your selections."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Note",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Once you complete the level you specify, you receive the bonus points for all the previous levels."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "BQABQE",
+      "title": "Playing Hover!",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To play Hover!",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "The object is simple: steal all of the drones' flags before the drones capture yours. You will be awarded points for each of the enemy flags you collect, and for every one of your flags you have remaining in the maze when you finish the level ahead of the drones."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Game menu, click Start Game."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "To move through the maze, use the arrow keys or the joystick."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Tips",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "For information about the different parts of the playing window, use the right mouse button to click any area of the Hover! screen."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "You can change the keys that you use to control Hover! To customize your movement controls, click the Options menu, click Player Controls, and then click Set Keys."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "To pause a game, press the Pause key or click any command. To continue, press the Pause key again, or click Pause on the Game menu."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": " "
+            },
+            {
+              "text": "Related Topics",
+              "action": {
+                "related": "a-playingtopics"
+              }
+            },
+            {
+              "text": ""
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "150D9S1",
+      "title": "Score Area",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Score Area"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "Indicates your current score."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "C5C6S7",
+      "title": "Rear View",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Rear View"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "Displays the area behind your Hover 950."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "6MAD_8J",
+      "title": "Flag Area",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Flag Area"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "Indicates the number of flags available. When you capture a flag, the flag is colored in, blue for the flags that you have collected and red for the flags the drones have picked up."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1GQ65RL",
+      "title": "Main View",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Main View"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "View outside the front of your Hover 950."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "KB47HP",
+      "title": "Object Area",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Object Area"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "The three areas represent Jump, Wall, and Cloak pods. Each area tells you about the number of objects you've picked up, the time remaining for that object, and the key associated with each object."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm15.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Jump information"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm16.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Wall information"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm17.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Cloak information"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "6RBE2J",
+      "title": "Map Area",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Map Area"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "A bird's-eye view of the current playing field. You can magnify and rotate the map to help you figure out where you are. To see more of the map, press the "
+            },
+            {
+              "text": "minus",
+              "caps": true
+            },
+            {
+              "text": " (--) key. To zoom in closer, press the "
+            },
+            {
+              "text": "plus",
+              "caps": true
+            },
+            {
+              "text": " (+) key. Flags are represented as blinking dots: red dots are your flags and blue dots are the enemy flags you are collecting. Drones carrying flags are represented as yellow triangles, drones with no flags are blue triangles, attack drones are green triangles, and the red triangle in the center of the map is your craft."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "L2BR7H",
+      "title": "Vehicle Area",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Craft Area"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "Shows the remaining time you are invincible to hold pads, skid pads, and flag removers; also shows the direction your craft is moving, and your current speed."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm18.png"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Current speed indicator"
+            }
+          ],
+          "sb": 95,
+          "sl": -235,
+          "li": 895,
+          "ri": 125,
+          "fi": -805
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm19.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Direction indicator"
+            }
+          ],
+          "sb": 95,
+          "sl": -235,
+          "li": 895,
+          "ri": 125,
+          "fi": -805
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm20.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Invincibility time remaining"
+            }
+          ],
+          "sb": 95,
+          "sl": -235,
+          "li": 895,
+          "ri": 125,
+          "fi": -805
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm21.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Time remaining in reduced or enhanced speed mode"
+            }
+          ],
+          "sb": 95,
+          "sl": -235,
+          "li": 895,
+          "ri": 125,
+          "fi": -805
+        }
+      ]
+    },
+    {
+      "id": "1J0BBRP",
+      "title": "Tips and Strategies",
+      "groups": [
+        "a-playingtopics"
+      ],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            },
+            {
+              "text": "Tips and Strategies",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Need to minimize the game quickly? Press "
+            },
+            {
+              "text": "esc",
+              "caps": true
+            },
+            {
+              "text": " to pause the game and reduce  it to a taskbar button."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Going fast has advantages and disadvantages. You can pick up flags faster but you have less time to react to hazards and obstacles. Be especially careful when taking corners, they can be tricky!"
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Always be watchful of the drones. If they are collecting flags faster than you are, it's a good idea to throw some hazards their way"
+            },
+            {
+              "text": "—",
+              "font": "times"
+            },
+            {
+              "text": "for example, dropping a wall in their path might be good strategy when they are on your tail."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Keep track of your position. Use the "
+            },
+            {
+              "text": "plus",
+              "caps": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "minus",
+              "caps": true
+            },
+            {
+              "text": " keys to adjust the map view to get a better view of where you are. Then pause the game to study the map more closely."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Drive defensively. If you see a drone that has already captured one of your flags and a flag remover pad is nearby, bump the drone onto the pad and the drone will drop the flag."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "If a drone is in pursuit or on the way to collecting a flag, you can knock it into a "
+            },
+            {
+              "text": "skid pad",
+              "action": {
+                "topic": "3OBSS8",
+                "popup": true
+              }
+            },
+            {
+              "text": " to get them off course, confuse them, and slow them down."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "If drones are near a hold or skid pad, drop a wall in front of them to send them into the wall and onto the pad!"
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Instead of trying to slow down when you are going to hit a wall head-on, try turning and power-sliding right before you hit the wall. If you can get your angle right, you will bounce off the wall and end up facing the direction you want to go!"
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "If you see a hazard coming up that you can't avoid, use a jump (if you have one) to jump over the square."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Plan your corner turns ahead of time. Slowing down will work, but a near perfect power-slide started ahead of time prevents you from having to let up on the accelerator!"
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "1YKL914",
+      "title": "Introduction",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Introduction",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Welcome to Hover!"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Match wits with robotic pilots as you steer your Hover 950 craft through the murky realms of Hover!, an amusement ride created by robots from the future."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "The object is simple: steal all of the drones' flags before the drones capture yours. You will be awarded points for each of the enemy flags you collect and for every one of your flags remaining when you finish the level ahead of the drones. But the challenge doesn't end here. The drones will work their deceptions to throw you off course."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "The world of Hover! is filled with floating pods that contain both good and bad objects. Drive through the good pods to collect booster packs and other handy tools. Avoid the bad pods! And keep an eye out for unwanted "
+            },
+            {
+              "text": "skid pads,",
+              "action": {
+                "topic": "3OBSS8",
+                "popup": true
+              }
+            },
+            {
+              "text": " flag removers, "
+            },
+            {
+              "text": "hold pads,",
+              "action": {
+                "topic": ".510JZ",
+                "popup": true
+              }
+            },
+            {
+              "text": " and other tricky obstacles."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Good News! When the robots designed the world of Hover!, their game timer malfunctioned. This ride can continue as long as you keep capturing all the drones' flags before all of yours are captured."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Look for more in-depth game play in the next version of Hover!"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "XWNBBX",
+      "title": "Using the keyboard to move through the maze",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Using the keyboard to move through the maze",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "You can use the keyboard to control your Hover 950 craft. The Hover 950 is set up to work with the following keys."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "To move",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "On the keypad, press",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "text": "\n",
+                "bold": true
+              },
+              {
+                "text": "Or press",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward"
+              }
+            ],
+            [
+              {
+                "text": "Up arrow (8)"
+              }
+            ],
+            [
+              {
+                "image": "bm22.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse"
+              }
+            ],
+            [
+              {
+                "text": "Down arrow (2)"
+              }
+            ],
+            [
+              {
+                "image": "bm23.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Left"
+              }
+            ],
+            [
+              {
+                "text": "Left arrow (4)"
+              }
+            ],
+            [
+              {
+                "image": "bm24.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Right"
+              }
+            ],
+            [
+              {
+                "text": "Right arrow (6)"
+              }
+            ],
+            [
+              {
+                "image": "bm25.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward and left"
+              }
+            ],
+            [
+              {
+                "text": "Home (7)"
+              }
+            ],
+            [
+              {
+                "image": "bm22.png"
+              },
+              {
+                "text": " + "
+              },
+              {
+                "image": "bm24.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward and right"
+              }
+            ],
+            [
+              {
+                "text": "PageUp (9)"
+              }
+            ],
+            [
+              {
+                "image": "bm22.png"
+              },
+              {
+                "text": " + "
+              },
+              {
+                "image": "bm25.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse and left"
+              }
+            ],
+            [
+              {
+                "text": "End (1)"
+              }
+            ],
+            [
+              {
+                "image": "bm23.png"
+              },
+              {
+                "text": " + "
+              },
+              {
+                "image": "bm24.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse and right"
+              }
+            ],
+            [
+              {
+                "text": "PageDown (3)"
+              }
+            ],
+            [
+              {
+                "image": "bm23.png"
+              },
+              {
+                "text": " + "
+              },
+              {
+                "image": "bm25.png"
+              }
+            ]
+          ],
+          "widths": [
+            1615,
+            2785,
+            3775
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To customize your movement control keys, click the Options menu, click Player Controls, and then click Set Keys."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1Q85VG",
+      "title": "Using objects",
+      "groups": [
+        "a-playingtopics"
+      ],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            },
+            {
+              "text": "Using objects",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Use the following keys to use objects that you picked up."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "To",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "Press",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            2785,
+            3595
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Jump to look over a low wall, or to jump over a hazard or enemy. "
+              }
+            ],
+            [
+              {
+                "text": "A"
+              }
+            ]
+          ],
+          "widths": [
+            2785,
+            3595
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Drop a wall to temporarily slow down an enemy drone."
+              }
+            ],
+            [
+              {
+                "text": "S"
+              }
+            ]
+          ],
+          "widths": [
+            2785,
+            3595
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Cloak to hide from enemy drones that are trying to bump you off course."
+              }
+            ],
+            [
+              {
+                "text": "D"
+              }
+            ]
+          ],
+          "widths": [
+            2785,
+            3595
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "To customize the keys you use, click the Options menu, and then click Player Controls."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "15I9PAN",
+      "title": "Choosing the game settings",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To choose the game settings",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Options menu, click Customize Game, or press"
+            },
+            {
+              "text": " f9",
+              "caps": true
+            },
+            {
+              "text": "."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Change the settings as needed."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Tip",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "For Help on an item, click "
+            },
+            {
+              "image": "bm26.png"
+            },
+            {
+              "text": " at the top of the dialog box, and then click the item."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "ELJFTH",
+      "title": "Changing player controls",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To change player controls",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Options menu, click Player Controls, or press "
+            },
+            {
+              "text": "f8",
+              "caps": true
+            },
+            {
+              "text": "."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "The keyboard is always active. If you want to use a joystick also, click Joystick."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "To change the keys you use to move your Hover 950, click Set Keys. To calibrate your joystick, click Calibrate to view Joystick properties."
+            }
+          ],
+          "sb": 55,
+          "sl": -235,
+          "li": 295,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Tip",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "For Help on an item, click "
+            },
+            {
+              "image": "bm26.png"
+            },
+            {
+              "text": " at the top of the dialog box, and then click the item."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "8J.88F",
+      "title": "Changing the window size",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To change window size",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Do one of the following:"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Point to the corner of the window, and drag the window to the size you want."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "For a full-screen view of Hover!, click the Options menu, and then click Full Screen. Or press "
+            },
+            {
+              "text": "f4.",
+              "caps": true
+            },
+            {
+              "text": " Press"
+            },
+            {
+              "text": " f4 ",
+              "caps": true
+            },
+            {
+              "text": "again to return to a smaller window."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "M70L_L",
+      "title": "Turning the sound on and off",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To turn the sound on and off",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Options menu, click Sounds."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Change the music, game sounds, and engine effects as needed."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "If the sounds do not sound good on your machine, clear the Sound Effects Mixing box to prevent sounds from playing at the same time."
+            }
+          ],
+          "sb": 55,
+          "sl": -235,
+          "li": 295,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Tip",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "For Help on an item, click "
+            },
+            {
+              "image": "bm26.png"
+            },
+            {
+              "text": " at the top of the dialog box, and then click the item."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "LB.4BZ",
+      "title": "Turning Quick Help on and off",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To turn Quick Help on and off",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "1"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Help menu, click "
+            },
+            {
+              "text": "Quick Help.",
+              "action": {
+                "topic": "1.Y.7FS",
+                "popup": true
+              }
+            },
+            {
+              "text": ""
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "2"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Check or clear the Skip Quick Help At Startup check box."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "\t"
+            },
+            {
+              "text": "When the Skip Quick Help At Startup check box is cleared, you will see the Quick Help dialog box every time you start a game."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "KEL0QG",
+      "title": "Scoring",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Scoring",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "At the lower levels, you get 1000 points for every enemy flag that you collect and 2500 points for each of your remaining uncaptured flags at the end of the level. The higher the level, the more valuable the flags. Can you beat your high score?"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "2YYQ0WC",
+      "title": "Choose Level (Game, Start Level At)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Type or select the level you want to start playing at. In the Scoring area, you see the value of the flags and the amount of bonus points for the level you specified. Remember, the higher the level, the higher the stakes and the harder the play."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "724U3H",
+      "title": "Customize Game (Game, Start Level At)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Displays the Hover 950's handling characteristics and the order that mazes are displayed. To change these settings, click Customize."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1Q05SJP",
+      "title": "Settings button (Game, Start Level At)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Sets the speed and display levels for the game. Also sets the craft control level, the order the mazes are displayed, whether warnings are displayed when starting a game, and how the map is displayed."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1CTAU0",
+      "title": "Movement (Player Controls dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "The keyboard is always preselected as your movement control device. Click Joystick if you want to use a joystick to move your Hover 950."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1LNE0HW",
+      "title": "Set keys button (Player Control dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Click this to assign keys to specific movements for your Hover 950."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "109G50F",
+      "title": "Calibrate button (Player Controls dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Set up the joystick by using the Joystick icon in Control Panel."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "C3AIJ1",
+      "title": "Objects (Player Control dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Assigns a key to an object. Click the down arrow next to the object, and then click or press the key you want to use. You can choose an alphabetic or numeric character."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1_7F72O",
+      "title": "Defaults button (Player Controls dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Resets the game to the following settings:"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Object",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "Key",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            1345,
+            2875
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Jump"
+              }
+            ],
+            [
+              {
+                "text": "A"
+              }
+            ]
+          ],
+          "widths": [
+            1345,
+            2875
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Wall"
+              }
+            ],
+            [
+              {
+                "text": "S"
+              }
+            ]
+          ],
+          "widths": [
+            1345,
+            2875
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Cloak"
+              }
+            ],
+            [
+              {
+                "text": "D"
+              }
+            ]
+          ],
+          "widths": [
+            1345,
+            2875
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "By default, the keyboard is your movement control device."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "24BVZH3",
+      "title": "High score lists (High Score dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Lists the top fifteen players and their scores from highest to lowest."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "AJX8R7",
+      "title": "Clear Scores button (High Score Dialog Box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Erases the names and scores from the high score list."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "O9IBPJ",
+      "title": "Effects (Sound Options dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To turn on or off the background music, click Music."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "To turn on or off the sounds made during the game, such as hitting a wall or picking up a pod, click Game Sounds."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "To turn on or off engine sounds, click Engine."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "2EITM03",
+      "title": "Sound effects mixing",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Specifies whether to mix game sounds and engine sounds. If the option is unavailable, sound mixing is not possible on your computer."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "I.M9.H",
+      "title": "Set Keys dialog box",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Sets a key for a specific movement. Click the down arrow in the box above the direction, and then click or press the key you want to assign."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "2AI5X33",
+      "title": "Default button (Set Keys dialog box)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Resets the movement keys to the following settings:"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Direction",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "Key on the keypad",
+                "bold": true
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward and Left"
+              }
+            ],
+            [
+              {
+                "text": "Home (7)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward"
+              }
+            ],
+            [
+              {
+                "text": "Up arrow (8)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Forward and Right"
+              }
+            ],
+            [
+              {
+                "text": "Page Up (9)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Left"
+              }
+            ],
+            [
+              {
+                "text": "Left arrow (4)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Right"
+              }
+            ],
+            [
+              {
+                "text": "Right arrow (6)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse and Left"
+              }
+            ],
+            [
+              {
+                "text": "End (1)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse"
+              }
+            ],
+            [
+              {
+                "text": "Down arrow (2)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        },
+        {
+          "kind": "row",
+          "cells": [
+            [
+              {
+                "text": "Reverse and Right"
+              }
+            ],
+            [
+              {
+                "text": "Page Down (3)"
+              }
+            ]
+          ],
+          "widths": [
+            1795,
+            3775
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8I5945",
+      "title": "Speed and Detail (Options, Customize Game)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Specifies the rate at which the graphics are displayed and at what level of detail. Move the slider along the scale from Less Speed/More Detail to More Speed/Less Detail."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "14A277P",
+      "title": "Difficulty (Options, Game Options)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Specifies the vehicle control level you want for your Hover 950. The harder the control, the better driver you must be to handle your craft when going around corners and obstacles. Remember that you can rack up more points with more difficult controls!"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1O.KP0X",
+      "title": "Maze Display (Options, Game Options)",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Specifies either displaying the three mazes in the same order throughout the game (sequential), or having them appear in a random order."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "FG2AJ2",
+      "title": "Map Options",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "To rotate the map as you move around the maze, click Rotate Map. To have your Hover 950 turn on the map as you move around the maze, click Rotate Craft."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1N3I_YY",
+      "title": "Show Rear View",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "You can turn the rear view mirror on or off. With the mirror off, graphics are displayed more smoothly."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": ".510JZ",
+      "title": "Hold Pad",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "A hold pad is part of the floor that grabs you and temporarily prevents you from moving."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "46EMST",
+      "title": "If the sounds in Hover! sound funny or you don't hear any sounds",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "If the sounds in Hover! sound funny or you don't hear any sounds",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "On the Options menu, click Sounds, and then clear the Sound Effects Mixing check box. Your sounds will now be emitted one at a time."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": ".KUWRL",
+      "title": "If the graphics look bad",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "If the graphics look bad",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "On the Options menu, click Customize Game, and then set the Speed & Detail slider to Less Speed/More Detail. The graphics will be displayed in a higher resolution but the game will play much slower."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "I5UO.U",
+      "title": "If the keypad arrow keys don't work",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "If the keypad arrow keys don't work",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Make sure that "
+            },
+            {
+              "text": "numlock",
+              "caps": true
+            },
+            {
+              "text": " is off."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "12GURJD",
+      "title": "If you have an ISA video board",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "If you have an ISA video board",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Hover! will run, but there will be serious degradation of performance."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "1PGDPB6",
+      "title": "If you move through the maze too slowly",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "If you move through the maze too slowly",
+              "bold": true
+            }
+          ],
+          "sb": 115,
+          "sa": 35,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": "Do one or more of the following:"
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "Make the game window smaller."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "On the Options menu, click Customize Game, and then set the Speed & Detail slider to More Speed/Less Detail."
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        },
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "image": "bm14.png"
+            },
+            {
+              "text": "\t"
+            },
+            {
+              "text": "See the Hover! Readme for more tips."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    },
+    {
+      "id": "1.Y.7FS",
+      "title": "Quick Help",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Appears when you start a new game, and gives you information about the game: how to start, how to play, what the object of the game, how to move through the maze, and how to pause. To turn this dialog box on and off, click the Help menu, and then click Quick Help."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "3OBSS8",
+      "title": "Skid Pad",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Hitting a skid pad is like hitting a grease spot: you slide off course in an unpredictable direction."
+            }
+          ],
+          "sb": 75,
+          "sl": -235,
+          "li": 115,
+          "ri": 125
+        }
+      ]
+    },
+    {
+      "id": "JP.RLA",
+      "title": "Help Topics",
+      "groups": [],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "runs": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Click Help Topics to return to the list of topics. "
+            }
+          ],
+          "sb": 45,
+          "sl": -235,
+          "li": 295,
+          "ri": 125,
+          "fi": -185
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "level": 1,
+      "label": "Introduction",
+      "topic": "1YKL914"
+    },
+    {
+      "level": 1,
+      "label": "ReadMe",
+      "topic": "readme"
+    },
+    {
+      "level": 1,
+      "label": "Getting Started"
+    },
+    {
+      "level": 2,
+      "label": "Playing Hover!",
+      "topic": "BQABQE"
+    },
+    {
+      "level": 2,
+      "label": "Using the keyboard to move through the maze",
+      "topic": "XWNBBX"
+    },
+    {
+      "level": 2,
+      "label": "Starting at a specific level",
+      "topic": "_K617M"
+    },
+    {
+      "level": 2,
+      "label": "Scoring",
+      "topic": "KEL0QG"
+    },
+    {
+      "level": 2,
+      "label": "Objects in the maze",
+      "topic": "LCGTNY"
+    },
+    {
+      "level": 2,
+      "label": "Using objects",
+      "topic": "1Q85VG"
+    },
+    {
+      "level": 2,
+      "label": "Tips and strategies",
+      "topic": "1J0BBRP"
+    },
+    {
+      "level": 1,
+      "label": "Customizing Hover!"
+    },
+    {
+      "level": 2,
+      "label": "Choosing the game settings",
+      "topic": "15I9PAN"
+    },
+    {
+      "level": 2,
+      "label": "Changing player controls",
+      "topic": "ELJFTH"
+    },
+    {
+      "level": 2,
+      "label": "Changing window size",
+      "topic": "8J.88F"
+    },
+    {
+      "level": 2,
+      "label": "Turning sounds on and off",
+      "topic": "M70L_L"
+    },
+    {
+      "level": 2,
+      "label": "Turning Quick Help on and off",
+      "topic": "LB.4BZ"
+    },
+    {
+      "level": 1,
+      "label": "Troubleshooting"
+    },
+    {
+      "level": 2,
+      "label": "If you move through the maze too slowly",
+      "topic": "1PGDPB6"
+    },
+    {
+      "level": 2,
+      "label": "If the sounds in Hover! sound funny or you don't hear any sounds",
+      "topic": "46EMST"
+    },
+    {
+      "level": 2,
+      "label": "If you have an ISA video board",
+      "topic": "12GURJD"
+    },
+    {
+      "level": 2,
+      "label": "If the graphics look bad",
+      "topic": ".KUWRL"
+    },
+    {
+      "level": 2,
+      "label": "If the keypad arrow keys don't work",
+      "topic": "I5UO.U"
+    }
+  ],
+  "contexts": {
+    "1000": "BQABQE",
+    "2000": "2YYQ0WC",
+    "2010": "724U3H",
+    "2020": "1Q05SJP",
+    "2200": "24BVZH3",
+    "2210": "AJX8R7",
+    "2300": "O9IBPJ",
+    "2310": "2EITM03",
+    "2400": "1CTAU0",
+    "2410": "C3AIJ1",
+    "2420": "1LNE0HW",
+    "2430": "109G50F",
+    "2440": "1_7F72O",
+    "2500": "I.M9.H",
+    "2510": "2AI5X33",
+    "2100": "8I5945",
+    "2110": "1O.KP0X",
+    "2120": "14A277P",
+    "2130": "FG2AJ2",
+    "2140": "1N3I_YY",
+    "2600": "150D9S1",
+    "2610": "C5C6S7",
+    "2620": "6MAD_8J",
+    "2630": "1GQ65RL",
+    "2640": "KB47HP",
+    "2650": "6RBE2J",
+    "2660": "L2BR7H"
+  },
+  "images": {
+    "bm0.png": {
+      "width": 24,
+      "height": 39,
+      "sourceSha256": "dfd6d27f3235f14bd1ca7f6dbf63b940cb71bfebe28361c57b1f46604c4b9bb1",
+      "rgbaSha256": "303cc65f310f637625658f0dbfc66cc782bcf1a6e697c6b7ee81f9c9b95ae2d9"
+    },
+    "bm1.png": {
+      "width": 24,
+      "height": 39,
+      "sourceSha256": "b993b13ad7486dd25584db59e011900ac7f7082620f32ee6371987924f73cfa4",
+      "rgbaSha256": "e636ca323616bfa55a098dd8cbc5f28fb159175329b0268f102fb15e3f2f78cd"
+    },
+    "bm10.png": {
+      "width": 40,
+      "height": 40,
+      "sourceSha256": "721c69192698867250e1ab31579cb52b286d6f4e432426240fa184f295fee5df",
+      "rgbaSha256": "c0cfa037d0efdec1ed88760ece05de6a1a2be8f8033a63837e70c52302b7fe2c"
+    },
+    "bm11.png": {
+      "width": 40,
+      "height": 40,
+      "sourceSha256": "3c6d286df82c81ab960bddfae7c68dd727236f0b20bcc032a5d09ab5d599c4db",
+      "rgbaSha256": "4302c5ed13d2f1824c7ad60bc5b74e30d5160639b716d4ae6db79eefb2d78887"
+    },
+    "bm12.png": {
+      "width": 51,
+      "height": 32,
+      "sourceSha256": "c8cea923146b722d0cb772ca900ec44006b26bff0e4bb338d1cb8a6f6ce9e96e",
+      "rgbaSha256": "468ef4ef30ca1efbc726ddb81a29bbecf1b2cdc684c93efe1b48658c0818141a"
+    },
+    "bm13.png": {
+      "width": 40,
+      "height": 40,
+      "sourceSha256": "3b55b8c8b6fcef23fa2c8d50af509f34f49cb61f7da289bb73a04631d77a48dc",
+      "rgbaSha256": "fe61a568a1a3c6f29a4153232b9b64d4be9546291f62755a759b32b46879c9ba"
+    },
+    "bm14.png": {
+      "width": 3,
+      "height": 7,
+      "sourceSha256": "11f6596e858d4982f911a38c2cd96089b58c6252e731b661196663cf95da5952",
+      "rgbaSha256": "0a5cd3ccc2faaa9ee0297fde613ddc6e89b4eb869b98366efb2475a9f9fe591f"
+    },
+    "bm15.png": {
+      "width": 33,
+      "height": 43,
+      "sourceSha256": "d710bae60e2b71a16d194f6882aea43a580248a5e21f8a61e4dba8f59446bd55",
+      "rgbaSha256": "f98c5da0d8f3cb8e5dce2d4b3fd3f2ea3825a1353352d57e761c60984ab58708"
+    },
+    "bm16.png": {
+      "width": 33,
+      "height": 43,
+      "sourceSha256": "73b2d527d6b76002dcf80d770880425078e2f40465ccc3bf18c18e3e70a34471",
+      "rgbaSha256": "f7b0a03cd09cbcc0748e9c8b999f24fee550e6f04eca7c7615c3d0925651347f"
+    },
+    "bm17.png": {
+      "width": 33,
+      "height": 43,
+      "sourceSha256": "12290ad949e9dea22eae95e974083ae54bb89c71da0d562e2ef398ab7745bc84",
+      "rgbaSha256": "c94a77850a5e90d0d28c88cceea04369d3c4ae9a90af8ccdea9d2bdea8e8d739"
+    },
+    "bm18.png": {
+      "width": 7,
+      "height": 52,
+      "sourceSha256": "8f301e5312b75af0f7bf4be6773ca8e4bb0c2de1f44bb1fc56856be5428969ae",
+      "rgbaSha256": "5b8bbb8b3d1538098b65d83b7bd6e963a7c4c8bbc1081489bdd9dab3b8855347"
+    },
+    "bm19.png": {
+      "width": 51,
+      "height": 47,
+      "sourceSha256": "cc94f3800f8398d25c29dc825b0cdbd8d3f7034f9966d45a32a8c69eee41040f",
+      "rgbaSha256": "92fa0049010f44b7a0838fe9a4314fe683bec63b77d281a4d6b64b0bf39cb27e"
+    },
+    "bm2.png": {
+      "width": 66,
+      "height": 16,
+      "sourceSha256": "b151e28e98fdd4cdfcce15cb3da50485e128ad057f9b1bc1d979aa0b4627585f",
+      "rgbaSha256": "0d77b90d75a930dccc5e2dd2342a626162bb7e5a0082c2bca60bf2d1bceb47bd"
+    },
+    "bm20.png": {
+      "width": 52,
+      "height": 18,
+      "sourceSha256": "d9b1324bd31428775e92cdd38382954bc51cb87ccea6c28a4da25e8f452a4f6e",
+      "rgbaSha256": "683efb5210397fc2d44abf8ced92964af994f070cdf45395581f1e7ee75c5595"
+    },
+    "bm21.png": {
+      "width": 52,
+      "height": 18,
+      "sourceSha256": "82cd993792f94cb3df81bd77ca99444f4ddbffdfefad2bf2eacbba8c84e242ce",
+      "rgbaSha256": "888ac20a8f69649eaddb9c2a12c81a6dcc7a00e0e6fbce64a86045aae4a4b5c8"
+    },
+    "bm22.png": {
+      "width": 18,
+      "height": 18,
+      "sourceSha256": "b13513bb97a29d1c225a88541ad9693427aee19d3c724328fb545594d5923a4e",
+      "rgbaSha256": "c5aa272c54bbcf562d5ed7b5d9a3fbb90ccf80a74416db08a405ab31496dc015"
+    },
+    "bm23.png": {
+      "width": 18,
+      "height": 18,
+      "sourceSha256": "9d6fcf3854a53785908c47880be2fb670ede67b620d9165615f6f4129913a10d",
+      "rgbaSha256": "c336cbe3b3d48ddb3deaec703ddd662b810a63ab0282aeae70a05ab827f26b8b"
+    },
+    "bm24.png": {
+      "width": 18,
+      "height": 18,
+      "sourceSha256": "b46e9154aaf471d49a19deec1d61d39452ba58d568ecd3dd3d5e85522e27d934",
+      "rgbaSha256": "5a4cda0b8da77524bea9ac5ac97e45c7c1bdc20ba51acbbd7a54385ef33890e5"
+    },
+    "bm25.png": {
+      "width": 18,
+      "height": 18,
+      "sourceSha256": "372e777648c65bec64eac55be6ac028352ee9831f272f0de986b28ce9c5d552e",
+      "rgbaSha256": "81a5ad19c472ff41c824955217a4a5220bf4ebe9171e6290bb2cdad06a63dd40"
+    },
+    "bm26.png": {
+      "width": 10,
+      "height": 11,
+      "sourceSha256": "bd3ebe341df4696196f3e7c9e820349e90de053807ac70aa4636811c1192f891",
+      "rgbaSha256": "92d71293f4b374b07d6f77b45eaeb5e2ed82ab76558eacbbbee55fc175089f21"
+    },
+    "bm3.png": {
+      "width": 20,
+      "height": 20,
+      "sourceSha256": "311b0673fe2aaa9f717dcf7ea2a8dff43c11d51de277a033cfa2e62515fa3e57",
+      "rgbaSha256": "6f01794a476263fd09b03d03e3908b6a0a6ab1338a63f537dcee6856b7783c92"
+    },
+    "bm4.png": {
+      "width": 38,
+      "height": 41,
+      "sourceSha256": "b74ac0b66359582f98f99083169deba0a0dcbccd4c1b027f2dd4c2d4800c3b83",
+      "rgbaSha256": "d865f93f74c380316aa8705698a2842390f81e55e589d6ea22cbd0b653f90034"
+    },
+    "bm5.png": {
+      "width": 25,
+      "height": 57,
+      "sourceSha256": "479619718556cbb9922ddedfe6e331a6e2330bb346495ab8c42014e2956f5eb8",
+      "rgbaSha256": "564fcad3328d03d50e77886f148012e3912f702fee4da170b0dd23ed9e31435b"
+    },
+    "bm6.png": {
+      "width": 33,
+      "height": 51,
+      "sourceSha256": "ca64f1db09f1158c68cc809d2ca66d81be0ae1b6fdc3d018a741952ad6e6b729",
+      "rgbaSha256": "cce4062599af280db935bfc4952ba3f4ec4ceb83d19aaf78aa5b39e1d7411f9c"
+    },
+    "bm7.png": {
+      "width": 29,
+      "height": 42,
+      "sourceSha256": "13d2c175091980aaecacaf8e081d67df42becfa2481485e87e07a14b25ae256e",
+      "rgbaSha256": "991e181aa6e650681b7911c2e6ae5aa8981473b20cd800e8fab0a230ed308c3a"
+    },
+    "bm8.png": {
+      "width": 21,
+      "height": 48,
+      "sourceSha256": "0856de7b01235637e65985886080a880c0004fdbe1a19e76ad95e787d7f0d9c7",
+      "rgbaSha256": "730edf790765e31bfa516679d8109e1b3c4fa119b75c319f8a20f1fe21297883"
+    },
+    "bm9.png": {
+      "width": 21,
+      "height": 48,
+      "sourceSha256": "2a66459506313a5f2ba812b96a3b9f8858afd8a0ed14ce61a230e3e91154cb84",
+      "rgbaSha256": "22fa27072e6d353a7765d3eb400e34fbe3fa7c56bb0190879a844af777d660ac"
+    }
+  },
+  "sounds": {
+    "ATTKPING": {
+      "file": "ATTKPING.WAV",
+      "sha256": "479c4cc4e672fb99239d302778374a0b14fc9c5f963d12bce5af90c31203b3a6",
+      "bytes": 7576
+    },
+    "CLOAK_EN": {
+      "file": "CLOAK_EN.WAV",
+      "sha256": "9f497e286454541f69d5f75f32c3ac1aac3ed58510ee26c3a339a2eaf9e5c04e",
+      "bytes": 9374
+    },
+    "CLOAK_ST": {
+      "file": "CLOAK_ST.WAV",
+      "sha256": "be3551e873101105b53fa86a0f81a221398f588d6de9b48c56a193caba62aba3",
+      "bytes": 10556
+    },
+    "ENG_HIGH": {
+      "file": "ENG_HIGH.WAV",
+      "sha256": "f3fffde507c70f698f58ced58464d945cf5adbe413ae9fcba2eb1677e3c2b9f0",
+      "bytes": 15244
+    },
+    "ENG_IDLE": {
+      "file": "ENG_IDLE.WAV",
+      "sha256": "3decaab50829983c5a3e6ab60185ee1aaca653e1022b5093cba2dad805d5d434",
+      "bytes": 22158
+    },
+    "ENG_LOW": {
+      "file": "ENG_LOW.WAV",
+      "sha256": "e9690de0dd6cd434e296614b3ff1c5fc61216f75b35ddca6d4d1160435532940",
+      "bytes": 15038
+    },
+    "ENG_NORM": {
+      "file": "ENG_NORM.WAV",
+      "sha256": "1924c6e7903910c4f7f26cccd63fa7c18b172cc4d421aba71df87c403c970018",
+      "bytes": 20322
+    },
+    "FLAGR_ST": {
+      "file": "FLAGR_ST.WAV",
+      "sha256": "b9ff56c9766aefb6471c41197bdce205afa331e9ab8b8fd2c129627519f16af3",
+      "bytes": 14102
+    },
+    "GAMEOVR": {
+      "file": "GAMEOVR.WAV",
+      "sha256": "6b0d81fb9e85e48e6cad1117751b65790c2c2ed2e2c5ec4ccc1273b40dc6b75a",
+      "bytes": 18552
+    },
+    "HIT_MAPE": {
+      "file": "HIT_MAPE.WAV",
+      "sha256": "e657a055cc5fb7e8d9a5c534596900e383f1387b87d384d364d39311c2dca27f",
+      "bytes": 8728
+    },
+    "HIT_POD": {
+      "file": "HIT_POD.WAV",
+      "sha256": "482ac03fab26b682686cefe4c94710af46a3d64d6f9e6b826af2c61a42ad0550",
+      "bytes": 5676
+    },
+    "HIT_ROBT": {
+      "file": "HIT_ROBT.WAV",
+      "sha256": "48301fdf4923e1fe28e5239bbe8dbee6877922b234933eae230667088bb9d125",
+      "bytes": 4678
+    },
+    "HIT_SHLD": {
+      "file": "HIT_SHLD.WAV",
+      "sha256": "697c5bff7280420ef37edc39b189d87e1f61587d17cf863cb46cf17eaffa48eb",
+      "bytes": 2720
+    },
+    "HIT_WALL": {
+      "file": "HIT_WALL.WAV",
+      "sha256": "209c427777a45eaa72c0e1a43866e076f254bc1a168c62e54e027c74e836ce0d",
+      "bytes": 4878
+    },
+    "HOLD_EN": {
+      "file": "HOLD_EN.WAV",
+      "sha256": "1f586d1bba92fb0e32aaec1c2e70d500a047632f3b0ca8b14b089715a1ff1360",
+      "bytes": 11532
+    },
+    "HOLD_ST": {
+      "file": "HOLD_ST.WAV",
+      "sha256": "aa6cec710a82962802f0c27aeed26f4d66afd387a1384a9ef02f635bbba05f76",
+      "bytes": 13308
+    },
+    "INVIN_EN": {
+      "file": "INVIN_EN.WAV",
+      "sha256": "0253b342bfa66140dedc97e51c310a73919accb2170a6fce1b215ea40022603b",
+      "bytes": 13470
+    },
+    "INVIN_ST": {
+      "file": "INVIN_ST.WAV",
+      "sha256": "bd03284f50861aeadeb41120623c63d0171d8163a68e524c31bd6b6520894bde",
+      "bytes": 15186
+    },
+    "JUMP_EN": {
+      "file": "JUMP_EN.WAV",
+      "sha256": "8bcf1811b35efde4a26d0160d88e6760380f23c563eb025ad9d577052db54ae1",
+      "bytes": 8256
+    },
+    "JUMP_ST": {
+      "file": "JUMP_ST.WAV",
+      "sha256": "0d0c7106cd6cb8c05ab6ea6b1aafd8f5f520d228a2778768c4c2bb2e4e144675",
+      "bytes": 7732
+    },
+    "OBT_CLOA": {
+      "file": "OBT_CLOA.WAV",
+      "sha256": "a1a518289a27fe5d33d2f1a1d230253d0ba41277c0c36bbe5721cb4d13ddf7d4",
+      "bytes": 12622
+    },
+    "OBT_HFLG": {
+      "file": "OBT_HFLG.WAV",
+      "sha256": "18109be456bf5f0bfd832814552388c3a5ff1372ec72bb640e3defd77c6dfade",
+      "bytes": 11846
+    },
+    "OBT_JUMP": {
+      "file": "OBT_JUMP.WAV",
+      "sha256": "191d689a23edd3f0a52989a79218192d82a9ff54e7a4be9a28ecce3efa417677",
+      "bytes": 12754
+    },
+    "OBT_RFLG": {
+      "file": "OBT_RFLG.WAV",
+      "sha256": "d9628bb98d562cd107842ff76d918d22f0ac67457cc3880ef5277364cb0fe8f5",
+      "bytes": 15180
+    },
+    "OBT_WALL": {
+      "file": "OBT_WALL.WAV",
+      "sha256": "f175b67cb897cb0990b1dc400f6534c3b2d43f5fe7291d35da71f23f672ba44b",
+      "bytes": 12784
+    },
+    "SHIELD": {
+      "file": "SHIELD.WAV",
+      "sha256": "96a512b1304064a31207bc70c55d751becbb5a434d54640f845d6731836118f3",
+      "bytes": 13016
+    },
+    "SKID_ST": {
+      "file": "SKID_ST.WAV",
+      "sha256": "a6fb9e6c05e2655044b1fefe134fbb7d5da7349c07c2720c33570e0f43ec87e4",
+      "bytes": 12530
+    },
+    "SPEED_EN": {
+      "file": "SPEED_EN.WAV",
+      "sha256": "4cb84000998580d50dc8f4b374a9a7bacab2a67f20d0eb1f71633f2d9250b572",
+      "bytes": 13802
+    },
+    "SPEED_RE": {
+      "file": "SPEED_RE.WAV",
+      "sha256": "f491ba460ccb42dbbeddf5ef5672c23234d2a1b36e26d4c4fe7df70896cd058e",
+      "bytes": 10410
+    },
+    "WINLEVEL": {
+      "file": "WINLEVEL.WAV",
+      "sha256": "51bcf7cdeb4bfa4e1a9682b0f2944e3b00fb1d8a3a274524745ae1d15dad800a",
+      "bytes": 36502
+    }
+  },
+  "readme": "    ------------------------------------------------------------\n                       Microsoft Hover! README\n                             August 1995\n    ------------------------------------------------------------\n              (c) Copyright Microsoft Corporation, 1995\n\nThis document provides complementary or late-breaking information to\nsupplement the Microsoft Windows 95 documentation.\n\n------------------------\nHow to Use This Document\n------------------------\nTo view Hovrread.txt on screen in Notepad, maximize the Notepad window.\n\nTo print Hovrread.txt, open it in Notepad or another word processor, \nthen use the Print command on the File menu.\n\n\n--------\nCONTENTS\n\nMINIMUM SYSTEM REQUIREMENTS\nRECOMMENDED SYSTEM REQUIREMENTS\nUSING HOVER! WITH MOUSEKEYS ENABLED\nTIPS FOR PLAYING HOVER!\nRUNNING HOVER! FASTER\nIF YOU HAVE PROBLEMS WITH SOUND\nHOVER! STOPS RESPONDING\n--------\n\nMINIMUM SYSTEM REQUIREMENTS\n===========================\n\n- 486/33 processor\n- 8 MB RAM\n- Sound card\n- CD-ROM drive\n- SVGA monitor\n- Microsoft Windows 95\n\n\nRECOMMENDED SYSTEM REQUIREMENTS\n===============================\n- 486/66 DX processor\n- 8 MB RAM\n- Sound card\n- CD-ROM drive\n- SVGA monitor\n- Microsoft Windows 95\n\n\nUSING HOVER! WITH MOUSEKEYS ENABLED\n===================================\nIf you have used the Accessibility Options in Control Panel to turn\non MouseKeys, you must reassign the keys you use to maneuver your\nHovercraft. To do this, carry out the following procedure:\n1. On the Options menu, click Player Controls.\n2. Click Set Keys.\n3. Choose the keys you want to use to move your Hovercraft.\n\n\nTIPS FOR PLAYING HOVER!\n=======================\nCollect objects such as jumps and walls whenever you have a chance. \nThey will be useful on the higher levels.\n\nIf you see a drone that has already captured one of your flags, and a\nflag-remover pad is nearby, bump the drone onto the pad and the drone\nwill drop the flag.\n\nIf a drone is in pursuit or on the way to collecting a flag, you can\nknock it into a skid pad to get it off course, confuse it, and slow\nit down.\n\nIf a drone is near a hold or skid pad, drop a wall in front of it to\nsend it into the wall and onto the pad!\n\nIf you see a hazard coming up that you can't avoid, use a jump (if\nyou have one) to jump over the square.\n\nUse walls and skid pads to rapidly change direction to avoid drones\nand other hazards.\n\n\nRUNNING HOVER! FASTER\n=====================\nQuit all other programs.\n\nIf you want to run Hover! in the fastest possible full-screen mode,\npress F4. Hover! will run fast, but the graphics will be displayed\nin less detail.\n\nIf you want to run Hover! in 640x480 full-screen mode, press SHIFT+F4.\nHover! will display higher resolution graphics, but will run slower.\n\nIf you are using a computer with the Energy Star power-saver feature\nturned on, you will periodically experience very slow frame rates.\nTo enable Hover! to run faster, turn off the energy-saving feature\nby carrying out the following procedure:\n1. In Control Panel, double-click the Power Management icon.\n2. Click the Power Management check box.\n\n\nIF YOU HAVE PROBLEMS WITH SOUND\n===============================\nIf you are experiencing problems with the sound effects in Hover!,\nyou can run a special program to identify the exact sound card you\nhave by carrying out the following procedure:\n1. Insert your Windows 95 CD-ROM in the CD-ROM drive and then open\n   the Sounds folder, which is located in the Funstuff\\Hover folder.\n2. Double-click the icon for Wmconfig.exe, and then follow the\n   instructions on your screen.\n3. If you don't know what kind of sound card you have or can't find\n   its name on the list, click the first Generic option on the list,\n   and then click Test.\n4. Restart Hover! and see if the sound effects are correct. If they\n   are not, repeat steps 3 and 4 until the sound effects work\n   properly.\n\n\nHOVER! STOPS RESPONDING\n=======================\nYour computer may not respond if:\n- You have reserved a large amount of RAM for a RAM disk or SmartDrive.\n- You are low on disk space (for the page file).\n- You have disabled Virtual Memory.\n\nTo correct the problem, try one or more of the following:\n- Make sure that the hard drive has sufficient space free (20 MB) for\n  the page file.\n- Use only a small SmartDrive (.5 MB to 2 MB).\n- Don't use RAM drives.\n- Make sure Virtual Memory is enabled. To do this, carry out the\n  following procedure:\n  1. In Control Panel, double-click the System icon.\n  2. Click the Performance tab, and then click Virtual Memory.\n  3. Make sure Let Windows Manage My Virtual Memory Settings\n     (Recommended) is checked.\n"
+}

@@ -1,0 +1,393 @@
+{
+  "source": "Original Hover CD RIFF/MIDS streams",
+  "soundfont": {
+    "name": "GeneralUser GS 2.0.3",
+    "author": "S. Christian Collins",
+    "url": "https://www.schristiancollins.com/generaluser",
+    "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+    "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "license": "GeneralUser-GS-LICENSE.txt"
+  },
+  "renderer": "FluidSynth 2.5.5, stereo 44100 Hz, gain 0.2, 256 voices; sample-timed original events; MP3 160k",
+  "boundary": "Original notes, controller/program changes and tempo. Instrument timbre is GeneralUser GS, not a capture of the original Windows MIDI device.",
+  "tracks": [
+    {
+      "source": "music1.muz",
+      "sha256": "e639afb5607ea3f0ffafb550b6267a85f2af6e96ff7a7994004c4748e2e37205",
+      "division": 192,
+      "bufferSize": 4096,
+      "blocks": [
+        {
+          "position": 0,
+          "bytes": 4092,
+          "sha256": "706ab579acf00bb0f3b9d19544728ba1601725f66e9720b627862cda22821149"
+        },
+        {
+          "position": 3552,
+          "bytes": 4092,
+          "sha256": "fb17d1b96dcb5d808a5b7ec76f08593fad306b58b9cab847db50420d8fd9b64b"
+        },
+        {
+          "position": 7533,
+          "bytes": 4092,
+          "sha256": "ff6651eb2b1308cbedf644962669868290acd6561643620bb89613f9b6988f38"
+        },
+        {
+          "position": 10752,
+          "bytes": 4092,
+          "sha256": "739ae7dbe246b9f17c2b719a8a2d49108adf13c6e6f0be4b46603c2a66f14178"
+        },
+        {
+          "position": 13563,
+          "bytes": 4092,
+          "sha256": "ce79e41757f34667acc8b355fe97468d2f1e5187100323bf1fc672239f244f0b"
+        },
+        {
+          "position": 16278,
+          "bytes": 4092,
+          "sha256": "0436aaaa2109aa5e82557b09de3c610df4412b4889bf501668697d03507b08af"
+        },
+        {
+          "position": 19392,
+          "bytes": 4092,
+          "sha256": "f5e3773f5043248dc701fef861312bd2a6b7be955d7903a3e5a535686d1c21e1"
+        },
+        {
+          "position": 21750,
+          "bytes": 4092,
+          "sha256": "b727a9c3917792d221e066ff42f750664092cd947a7effc7db1eeffdc720f5e9"
+        },
+        {
+          "position": 23329,
+          "bytes": 4092,
+          "sha256": "f19d29d51f5cdd488aacacd367d12bfa5bb26c8d731f8a38bdc472c231e8ab56"
+        },
+        {
+          "position": 24918,
+          "bytes": 4092,
+          "sha256": "2689e15d68a2fd12defb7c89b9f60195c4138855be898fecd68c606df4e288a3"
+        },
+        {
+          "position": 26646,
+          "bytes": 4092,
+          "sha256": "823816e4dbb08a1c6988e4f84be403b957e0d62cfac97b9fb3776f6579e50249"
+        },
+        {
+          "position": 29184,
+          "bytes": 4092,
+          "sha256": "08f6ad5692521d50e6fea2e6ee4b04849d5dfaa8aa25989b4266b25621095fac"
+        },
+        {
+          "position": 30532,
+          "bytes": 4092,
+          "sha256": "19d5bfb4a1bb6a2c6d3701890109f5362a5c017b69f439df0b8ba2b2f6c48897"
+        },
+        {
+          "position": 32832,
+          "bytes": 4092,
+          "sha256": "28d6ef4d39c0cd2ea1ed4d2d96cc5425276897b7229fa7a038523c2a470b9be6"
+        },
+        {
+          "position": 35904,
+          "bytes": 4092,
+          "sha256": "7bdf6dfd3755c34f55105916168112bbabac6f05c7a22cf450064909bf2d6a1a"
+        },
+        {
+          "position": 38358,
+          "bytes": 4092,
+          "sha256": "470e70fd477e4e2208b2ee1341e4a992ba5ae89feed9c9090e1f8838fd666765"
+        },
+        {
+          "position": 40422,
+          "bytes": 4092,
+          "sha256": "96dd0c9bf3cf729e8eb6e638ec032d255f04f75159f06463e5701410a231f9ff"
+        },
+        {
+          "position": 42528,
+          "bytes": 4092,
+          "sha256": "f8f0a22b57166030411b5ee9018df82b5dc775cd8ca0bc0147b83191209a0bab"
+        },
+        {
+          "position": 44170,
+          "bytes": 4092,
+          "sha256": "b53f63605b808b62677f7947fce235f876c70ad73be3f357f41b4a1782c667b5"
+        },
+        {
+          "position": 45888,
+          "bytes": 4092,
+          "sha256": "c9a0bc3fc9055cdec7ff0528fb823522be043b87fcd7fd8812e916f83e40cedf"
+        },
+        {
+          "position": 47530,
+          "bytes": 4092,
+          "sha256": "e43284862ebd3c72c5892cb329a8f6e5227513a0c4c51a8f96a3f5d5f54c1c25"
+        },
+        {
+          "position": 49128,
+          "bytes": 4092,
+          "sha256": "66f9bbd8090c3924da08ec205eee70d974a9c5afa63b8ce27039ca849bcf6e5f"
+        },
+        {
+          "position": 50666,
+          "bytes": 4092,
+          "sha256": "c3f43511cf315a701525bfa7218d6a19f5b47ebf5a21a56dfb0ba97990803f15"
+        },
+        {
+          "position": 52220,
+          "bytes": 4092,
+          "sha256": "b62d67f3d97a67f4e9e5431ec203110e1dd8be10580d305ea7d14149e8b5ff61"
+        },
+        {
+          "position": 53756,
+          "bytes": 4092,
+          "sha256": "c7566a461f93ff53b98d09883dbf1e74a6539ab78d5e33fec493039da388b4c6"
+        },
+        {
+          "position": 55292,
+          "bytes": 4092,
+          "sha256": "73eeb11f78c5010bf8e10eb132209acd0eb3d044387cb558f39510f0d0e66ed1"
+        },
+        {
+          "position": 56904,
+          "bytes": 4092,
+          "sha256": "5a632f917e41c5f1a9cd6f689104fb7586a56a889ef95a068f37bb36a1757b22"
+        },
+        {
+          "position": 58650,
+          "bytes": 2508,
+          "sha256": "86921fe23db8d42fb6e179470c44884c23b6f309e9df350a91ff46078b22d2cd"
+        }
+      ],
+      "ticks": 59903,
+      "duration": 129.101260828125,
+      "map": 1,
+      "events": 9416,
+      "file": "music1.mp3",
+      "midi": "music1.mid",
+      "audioBytes": 2583555,
+      "audioSha256": "52bcca48c54af02120e84914db0939fb377ce750425afb0a794fe5d1e592adf3"
+    },
+    {
+      "source": "music2.muz",
+      "sha256": "017a99c75dd7e46b334e8c3d681304c7859e1cf5d5c10a111b60b24afc76525c",
+      "division": 192,
+      "bufferSize": 4096,
+      "blocks": [
+        {
+          "position": 0,
+          "bytes": 4092,
+          "sha256": "6a3c0939d682ec34caf051abebb5d21a3c304314601ae4ad57be8ce81f72e0b5"
+        },
+        {
+          "position": 3914,
+          "bytes": 4092,
+          "sha256": "d298ccdd7d70c3308ac111611ac06422d18514094272458bda9c9bc5b0e40bdc"
+        },
+        {
+          "position": 7872,
+          "bytes": 4092,
+          "sha256": "f2e5419ffd53f30f3302b911a8da25792919d9f9ae9d23456f00b27ba7e34eec"
+        },
+        {
+          "position": 11328,
+          "bytes": 4092,
+          "sha256": "45785263d36eae9b39e4b07067c909c8a3d4a44bcc12438bef54c0493eae4c00"
+        },
+        {
+          "position": 13968,
+          "bytes": 4092,
+          "sha256": "29fcdef67d83a66f28be09d6928e1e4eea3966ee0591ee1f8b91f4c0e77743e1"
+        },
+        {
+          "position": 16512,
+          "bytes": 4092,
+          "sha256": "f118d10f2582e4f4fbbb9e17f63f08cf4acf076ab780c5576e1b8a8ac1171ec2"
+        },
+        {
+          "position": 20544,
+          "bytes": 4092,
+          "sha256": "167a3df7bf852962643b3614ed837558e424566f8eb1d012b5fe7be22d5e0138"
+        },
+        {
+          "position": 24192,
+          "bytes": 4092,
+          "sha256": "bf44843128bf22ba94dd3da968b5a4067b8753fdafaea29d12d2a3c9414d23b8"
+        },
+        {
+          "position": 27744,
+          "bytes": 4092,
+          "sha256": "ba53a6188afd98ba7215cf98dab3c15ea52f43e4c7d8e94d44ad47390652931c"
+        },
+        {
+          "position": 30432,
+          "bytes": 4092,
+          "sha256": "35bb31e779d30f62767b4be75d24aa7e445e200d139821910c77ede1f6cd71ac"
+        },
+        {
+          "position": 33405,
+          "bytes": 4092,
+          "sha256": "aa695813483eda5f4c53602d9d30e71beaa1e5f07eaa3d17ea8d888443bcf19e"
+        },
+        {
+          "position": 37408,
+          "bytes": 4092,
+          "sha256": "925bc80a50f3c395736710618737d778aba3009829213dbbb1a6ca02cad9ad9c"
+        },
+        {
+          "position": 41217,
+          "bytes": 4092,
+          "sha256": "d1ff24d18ed1f2ffbc98c4b707747bf99e7286fdb926536cd5020442a9cafd4d"
+        },
+        {
+          "position": 45312,
+          "bytes": 4092,
+          "sha256": "4d4da13be5be251dfe4bb4d312281d485a34aaaf31dd42c1aae3d80101756809"
+        },
+        {
+          "position": 48336,
+          "bytes": 4092,
+          "sha256": "2f74f95249a6eb86e72f0869fbe3c4dc358c2ecc2a92ef0fabe1b0bfa4e80c4e"
+        },
+        {
+          "position": 51033,
+          "bytes": 4092,
+          "sha256": "91c3a39dc236fdbac59c94b7049a6134923f65ea2056a22cf2bd1c291d4dcd8f"
+        },
+        {
+          "position": 54155,
+          "bytes": 3756,
+          "sha256": "6bbaa5f9ab6493b8cf5569727425cc50036d64a0718b25729487e3e4f37b8949"
+        }
+      ],
+      "ticks": 56778,
+      "duration": 122.36634871875,
+      "map": 2,
+      "events": 5769,
+      "file": "music2.mp3",
+      "midi": "music2.mid",
+      "audioBytes": 2448763,
+      "audioSha256": "fbe632ee859e7448f91cc8d768dd34bffbd8c26be2b6890e3c7c8126faabb3d9"
+    },
+    {
+      "source": "music3.muz",
+      "sha256": "c04ab58d69eb98aa8972cb1bd5113e644d01e736f2c7f63c0b70d23607a76943",
+      "division": 192,
+      "bufferSize": 4096,
+      "blocks": [
+        {
+          "position": 0,
+          "bytes": 4092,
+          "sha256": "31cc618ffe4b0e5b85f037b1cfd9736fc7e7c1ce9ef021f0d8c678b0ebfdc155"
+        },
+        {
+          "position": 4512,
+          "bytes": 4092,
+          "sha256": "86d6b73c87e1dc3680fa104bf9ef65becea3b849f4048fa1ac7a054e475ca128"
+        },
+        {
+          "position": 7104,
+          "bytes": 4092,
+          "sha256": "9648a3c6a7d38e4d9d99fc7970f1b5ec1b314f40a633958820dded3b908bc9d3"
+        },
+        {
+          "position": 9408,
+          "bytes": 4092,
+          "sha256": "7fd8c8d65c8955f6c8ec543d6d4dfcf09274fe2fd00fc71c1d166f44052945ed"
+        },
+        {
+          "position": 11520,
+          "bytes": 4092,
+          "sha256": "23fec074fb4d30c4ea218ab852081dd117efe8912dbf34ca67fe215ab57b023f"
+        },
+        {
+          "position": 13632,
+          "bytes": 4092,
+          "sha256": "336d48986ff0490747f4b82be5d8483ac5a3f8eabd94281ab09eefe9da0ca1d3"
+        },
+        {
+          "position": 15744,
+          "bytes": 4092,
+          "sha256": "ef93e7fb327768d3c849a9979173793acd361aeb84bf0d790b3c8ad7d986ab87"
+        },
+        {
+          "position": 17910,
+          "bytes": 4092,
+          "sha256": "a714a6f0a4ed852f4a44984a5e379ebe52e0e6c3d215300e409c26c97f4f681e"
+        },
+        {
+          "position": 19870,
+          "bytes": 4092,
+          "sha256": "34ed4c39cb6058c9a3c228388d7fdf7f4ff8b60bd2454c93c6b3c6c140dc9f35"
+        },
+        {
+          "position": 21647,
+          "bytes": 4092,
+          "sha256": "75dcbe29526107a6f4650b91df87d2a5b34d791ea1e32bba18e3d20313aa0c12"
+        },
+        {
+          "position": 23478,
+          "bytes": 4092,
+          "sha256": "221123cd3255572bae289c9c950060f71a7a820942c5209435ae3a409505ac60"
+        },
+        {
+          "position": 25824,
+          "bytes": 4092,
+          "sha256": "e05f7dbcb542bb5917dee3bc06ab8583b4d2c5d5979d112c8972738a815cbfed"
+        },
+        {
+          "position": 28992,
+          "bytes": 4092,
+          "sha256": "37aa64efffd778101e3a53a42ea5010e38850477a2fb02222b515fc1032bd4a5"
+        },
+        {
+          "position": 31825,
+          "bytes": 4092,
+          "sha256": "a862f47b904b8eb801014bc448b8a88c27a2bbf1067ee6c18711a9396f8975a0"
+        },
+        {
+          "position": 33665,
+          "bytes": 4092,
+          "sha256": "35e55d30e7bdb0554ad323ef0731a21e1216b99fbc4afd7f6976ce1372345f4a"
+        },
+        {
+          "position": 35478,
+          "bytes": 4092,
+          "sha256": "b6b1042aba4c9e81113c827a333f7c6b596da33ab2d8631e8281ca4ebbc42693"
+        },
+        {
+          "position": 38116,
+          "bytes": 4092,
+          "sha256": "b524a07b409c05f00d4bda9bcf91845e14eba3ee4ce27544f9984c05587552f8"
+        },
+        {
+          "position": 40895,
+          "bytes": 4092,
+          "sha256": "1f825d7d23aee261845a547c5616de1c9410956a316f7e864baf221fe3658eaa"
+        },
+        {
+          "position": 43296,
+          "bytes": 4092,
+          "sha256": "5cea4e00b92954e5787650ad43f16136ad5bfe484acbd03efa6a2363c7f88585"
+        },
+        {
+          "position": 45600,
+          "bytes": 4092,
+          "sha256": "9b222a46253fb155ff37a4bb5a4611956e2a17a5fb68278b52e49a4f83c93538"
+        },
+        {
+          "position": 48288,
+          "bytes": 2304,
+          "sha256": "15aa62201cad8244ae196eb98f7bed9a5cd40f13a7983ebab397f41bd115960f"
+        }
+      ],
+      "ticks": 49920,
+      "duration": 106.84908,
+      "map": 3,
+      "events": 7012,
+      "file": "music3.mp3",
+      "midi": "music3.mid",
+      "audioBytes": 2138428,
+      "audioSha256": "8658345123bd1c9a1a00e6ae555e3d11fd01db874db4d87891613dc3330398d2"
+    }
+  ]
+}
