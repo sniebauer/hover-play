@@ -38,10 +38,13 @@ export function decodeNativeWav(input){
 
 export class NativePcmMixer{
  constructor(){this.voices=new Map();this.ended=[];this.phase=0;this.current=128;this.outputRate=null;this.nativeFrames=0;this.onSample=null;}
- start(id,bytes,loop=false,volumes=[10,10]){
+ start(id,bytes,loop=false,volumes=[10,10],frameLimit=bytes.length){
   if(!(bytes instanceof Uint8Array)||!bytes.length)throw Error('Empty native PCM voice');
+  if(!Number.isInteger(frameLimit)||frameLimit<0||frameLimit>bytes.length||loop&&frameLimit!==bytes.length)throw Error('Invalid native PCM frame limit');
   if(!this.voices.has(id)&&this.voices.size>=16)throw Error('Too many native PCM voices');
-  const pair=volumePair(volumes);this.voices.set(id,{bytes,loop,position:0,volume:Math.floor((pair[0]+pair[1])/2)});
+  const pair=volumePair(volumes);
+  if(!frameLimit){this.voices.delete(id);this.ended.push(id);return;}
+  this.voices.set(id,{bytes,loop,frameLimit,position:0,volume:Math.floor((pair[0]+pair[1])/2)});
  }
  stop(id){this.voices.delete(id);}
  clear(){this.voices.clear();this.ended=[];this.phase=0;this.current=128;this.outputRate=null;}
@@ -49,7 +52,7 @@ export class NativePcmMixer{
   let value=128;
   for(const [id,voice]of this.voices){
    value+=NATIVE_VOLUME_TABLE[voice.volume*256+voice.bytes[voice.position++]]-128;
-   if(voice.position===voice.bytes.length){if(voice.loop)voice.position=0;else{this.voices.delete(id);this.ended.push(id);}}
+   if(voice.position===voice.frameLimit){if(voice.loop)voice.position=0;else{this.voices.delete(id);this.ended.push(id);}}
   }
   const byte=Math.max(0,Math.min(255,value));this.nativeFrames++;this.onSample?.(byte);return byte;
  }

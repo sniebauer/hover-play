@@ -10,14 +10,14 @@ class HoverNativeMixerProcessor extends AudioWorkletProcessor{
   };
   this.port.onmessage=({data})=>{
    try{
-    if(data.type==='start')this.mixer.start(data.id,data.pcm,data.loop,data.volumes);
+    if(data.type==='start')this.mixer.start(data.id,data.pcm,data.loop,data.volumes,data.frameLimit);
     if(data.type==='stop')this.mixer.stop(data.id);
     if(data.type==='clear'){this.mixer.clear();this.capture=null;}
     // Authored verification captures bytes produced by process(), before
     // the explicitly separate context/device output conversion.
     if(data.type==='capture'){
      this.mixer.clear();this.capture={id:data.id,bytes:new Uint8Array(data.length),position:0};
-     for(const [index,voice]of data.voices.entries())this.mixer.start(index,voice.pcm,false,voice.volumes);
+     for(const [index,voice]of data.voices.entries())this.mixer.start(index,voice.pcm,voice.loop||false,voice.volumes,voice.frameLimit);
      if(!data.length){this.port.postMessage({type:'capture',id:data.id,bytes:new Uint8Array(0),sampleRate,nativeRate:NATIVE_SAMPLE_RATE});this.capture=null;}
     }
    }catch(error){this.port.postMessage({type:'error',message:String(error)});}
