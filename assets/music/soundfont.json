@@ -1,0 +1,19 @@
+{
+  "name": "GeneralUser GS 2.0.3",
+  "bytes": 32319396,
+  "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "source": "https://raw.githubusercontent.com/mrbumpy409/GeneralUser-GS/684543d5e5efaef08d02be50dcda8d552478fa60/GeneralUser-GS.sf2",
+  "license": "GeneralUser-GS-LICENSE.txt",
+  "parts": [
+    {
+      "file": "GeneralUser-GS-2.0.3.sf2.part1",
+      "bytes": 16777216,
+      "sha256": "597ad127e350dbc5d221570ea009e80fbdd5f3372165c757e7752221bc39d477"
+    },
+    {
+      "file": "GeneralUser-GS-2.0.3.sf2.part2",
+      "bytes": 15542180,
+      "sha256": "e7f8b01aed81361d78441b45c28046bfb41d099778b362af6ad0bae26d96df8e"
+    }
+  ]
+}

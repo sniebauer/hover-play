@@ -6,9 +6,10 @@
     "url": "https://www.schristiancollins.com/generaluser",
     "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
     "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
-    "license": "GeneralUser-GS-LICENSE.txt"
+    "license": "GeneralUser-GS-LICENSE.txt",
+    "manifest": "soundfont.json"
   },
-  "renderer": "FluidSynth 2.5.5, stereo 44100 Hz, gain 0.2, 256 voices; sample-timed original events; MP3 160k",
+  "renderer": "Continuous FluidSynth 2.4.6 WebAssembly; AudioWorklet sample rate; gain 0.2; 256 voices; original MIDI events repeat without resetting synth state",
   "boundary": "Original notes, controller/program changes and tempo. Instrument timbre is GeneralUser GS, not a capture of the original Windows MIDI device.",
   "tracks": [
     {
@@ -165,7 +166,9 @@
       "file": "music1.mp3",
       "midi": "music1.mid",
       "audioBytes": 2583555,
-      "audioSha256": "52bcca48c54af02120e84914db0939fb377ce750425afb0a794fe5d1e592adf3"
+      "audioSha256": "52bcca48c54af02120e84914db0939fb377ce750425afb0a794fe5d1e592adf3",
+      "midiSha256": "ff74204fc616e8fe5665df0d68a3ba8cdcdb5ec9e12d0e18aa1cce071833abfb",
+      "eventSha256": "d42e1d9bd2d47063598e0293e32e21014b660e4bf0b59c2f68de39c6789f921f"
     },
     {
       "source": "music2.muz",
@@ -266,7 +269,9 @@
       "file": "music2.mp3",
       "midi": "music2.mid",
       "audioBytes": 2448763,
-      "audioSha256": "fbe632ee859e7448f91cc8d768dd34bffbd8c26be2b6890e3c7c8126faabb3d9"
+      "audioSha256": "fbe632ee859e7448f91cc8d768dd34bffbd8c26be2b6890e3c7c8126faabb3d9",
+      "midiSha256": "9181451106704ed0ab6477b4eb9f958faa045fa7ab8170404dd200eddd10a870",
+      "eventSha256": "cb2665ee4c1bf185738a356053c3b3ec2dd5ba47a195db686a560d6accef9e60"
     },
     {
       "source": "music3.muz",
@@ -387,7 +392,10 @@
       "file": "music3.mp3",
       "midi": "music3.mid",
       "audioBytes": 2138428,
-      "audioSha256": "8658345123bd1c9a1a00e6ae555e3d11fd01db874db4d87891613dc3330398d2"
+      "audioSha256": "8658345123bd1c9a1a00e6ae555e3d11fd01db874db4d87891613dc3330398d2",
+      "midiSha256": "f1ccaa75535e064ec2b78fc39874035c184d69fdb8ef238a5e98f23cbaaf4713",
+      "eventSha256": "0f14a4c342dc97c2711a7c3fd27e28eb94a7406dc48d86bf1d81ca2b35b0de72"
     }
-  ]
+  ],
+  "archivedMp3Renderer": "FluidSynth 2.5.5, stereo 44100 Hz, gain 0.2, 256 voices; sample-timed original events; MP3 160k"
 }
