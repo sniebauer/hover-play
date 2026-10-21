@@ -1,6 +1,6 @@
 # Hover! comparison checklist
 
-Updated 2026-10-15. This is a tracked list of remaining differences and verification gaps, not a claim of complete game parity. Original evidence comes from the CD executable/resources, controlled execution of its routines, and retained Windows 95 captures. Browser-only conveniences are identified separately.
+Updated 2026-10-21. This is a tracked list of remaining differences and verification gaps, not a claim of complete game parity. Original evidence comes from the CD executable/resources, controlled execution of its routines, and retained Windows 95 captures. Browser-only conveniences are identified separately.
 
 ## Current correction batch
 
@@ -25,6 +25,14 @@ Updated 2026-10-15. This is a tracked list of remaining differences and verifica
 - [x] **G06 — Browser replay witness:** the complete 1,398-tick Castle input route passes at normal speed and accelerated speed through the shipping controller and renderer, including all nine sound requests. The actual win continues through 60 result ticks and the level-2 opening with score 7,200. This is one browser witness; the other fifteen complete games are offline native/controller comparisons.
 - [x] **A03 — Music repeat audit:** the single rendered music pass loses continuing synthesizer state at repeat. Confirmed for all three tracks using the pinned replacement SoundFont; original Windows device PCM was not captured. No speculative crossfade or asset change was made. See `evidence/music-loop-audit-2026-10-15.md`.
 
+## Campaign follow-up — October 21
+
+- [x] **G07 — Linked campaign and Difficult win:** one production controller wins Castle, City and Sewer through real automatic transitions, then loses naturally on level 4. All 7,468 active ticks, 26,633 craft snapshots and 56 gameplay sound requests match linked native-code checkpoints; scores carry 9,450 → 20,250 → 34,650 → 41,400. A separate Difficult-profile win matches 5,675 ticks, 17,025 craft snapshots and 99 sound requests, with native completion score 6,050. No runtime correction was needed. Original full loading, real event cadence and device audio remain boundaries. See `evidence/gameplay-campaign-2026-10-21.md`.
+
+- [x] **G08 — Naturally acquired equipment:** a completed Difficult Castle route uses the original S/A/D keys for a naturally collected wall, jump and cloak. All 5,675 ticks, 17,025 craft snapshots and 107 sound requests match the actual native key-down/activation and world routines. The dropped wall matches 179 active snapshots and expiry; score reaches native completion 6,050. See `evidence/gameplay-campaign-2026-10-21.md`.
+
+- [x] **A04 — Original byte-domain PCM mixer:** original initialization selects mono 11,025-Hz unsigned 8-bit output with unity volume. All 178,116 original bytes / 354 controlled cases plus two asset mixes and 2,816 volume entries match. The shipping AudioWorklet also matches 183 mono cases / 110,434 bytes in real Chrome; mixed channels, unmixed recovery and controller audio lifecycle pass. Device conversion, queue pumping and Windows timing remain separate. See `evidence/pcm-mixer-2026-10-21.md`.
+
 ## Current priority
 
 The user has deferred font and Help-window differences. Active work is complete input-only playthrough coverage, result/level transitions, original sound channel behavior and audio continuity. Deferred visual items remain recorded below and do not block this work.
@@ -34,10 +42,10 @@ The user has deferred font and Help-window differences. Active work is complete 
 - [x] **U05 — Message-box geometry:** all three layouts are captured on Windows 95; actual original Restart confirms dimensions and controls. Fixed text and close/focus pixels are recovered. Complete window pixels, held-down controls and parent-relative placement remain separate comparisons.
 - [ ] **U06 — Complete desktop composition (deferred):** bitmap HUD layers, selected text and instruments have bounded native comparisons. Full menu/dialog/cockpit composition, scaling and all text weights have not been shown identical. Windows 95 regular/bold GDI masks and metrics are captured; Help now uses those masks. Other dynamic dialog labels still use outline fonts and retain browser antialiasing differences.
 - [ ] **U07 — Help viewer (deferred):** original topic text, bitmaps, audio and internal links are recovered. Two regular-text popup layouts, source paragraph spacing and position-dependent checker shadows are corrected. The second capture has an unresolved yellow-background dither phase (2,392 pixels); complete viewer chrome, other wrapping/positioning cases, bold/small-caps treatment and native underline geometry remain open. See `evidence/help-popup-2026-10-15/panel-reconstruction.md`.
-- [ ] **G02 — Full playthrough coverage:** sixteen independent input-only games now cover start levels 1–16 and all three profiles. An uninterrupted campaign, Difficult-profile wins, more seeds/profile combinations and input-driven equipment use remain open. Earlier controlled fixtures cover equipment separately.
+- [ ] **G02 — Full playthrough coverage:** sixteen independent input-only games cover start levels 1–16 and all three profiles. A new one-controller campaign wins all three mazes then loses on level 4, and a separate Difficult-profile win now matches native checkpoints. A separate Difficult route now naturally collects and uses wall/jump/cloak through original key handling. An uninterrupted later-level or Difficult campaign, more seeds/settings, and broader equipment timing/overlap combinations remain open. The full native loader and live timing are still boundaries; earlier controlled fixtures cover equipment separately. See `evidence/gameplay-campaign-2026-10-21.md`.
 - [ ] **G03 — Native event cadence:** compare Windows timer, repaint, keyboard and radar blink timing in a responsive original session. A routine replay does not establish live timing parity.
 - [ ] **R01 — Complete moving frames:** render routines, detail modes, geometry and temporary walls have extensive bounded comparisons. Complete live original-versus-browser frames at matching poses and times remain incomplete.
-- [ ] **A01 — Audio output:** mixed-effect channel replacement now matches bounded original WaveMix calls and real Web Audio checks. Original PCM mixing, sample conversion, driver timing and MIDI-device timbre remain separate. The music repeat audit confirms that a single rendered pass does not retain synthesizer tails across repeats; see `evidence/music-loop-audit-2026-10-15.md`. Browser MIDI still uses a replacement instrument bank.
+- [ ] **A01 — Audio output:** channel replacement and the original 11,025-Hz byte-domain PCM mixer now match original-code fixtures and actual browser worklet output. Exact queue/interruption timing, device-rate conversion, driver latency and MIDI-device timbre remain unverified. See `evidence/pcm-mixer-2026-10-21.md`. The music repeat audit confirms that a single rendered pass does not retain synthesizer tails across repeats; see `evidence/music-loop-audit-2026-10-15.md`. Browser MIDI still uses a replacement instrument bank.
 
 
 ## Deliberate browser additions
